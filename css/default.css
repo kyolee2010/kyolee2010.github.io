@@ -11677,49 +11677,25 @@ figure.highlight.foldable div.level-left {
     padding: 1.5rem 1rem;
   }
 }
-.content h1 {
-  font-size: 1.2em !important;
-  font-weight: bold !important;
-  margin-top: 0.4em !important;
-  margin-bottom: 0.4em !important;
-  line-height: 1.6 !important;
-}
-.content h1.left {
-  text-align: left;
-}
-.content h1.center {
-  text-align: center;
-}
-.content p {
-  text-indent: 2em !important;
-  font-size: 1em !important;
-  line-height: 1.6 !important;
-  margin-top: 0.2em !important;
-  margin-bottom: 0.2em !important;
-}
-.content p.no-indent {
-  text-indent: 0;
-}
-.content p.center {
-  text-align: center;
-}
 .home-sections {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 2em;
-  margin-top: 2em;
+  gap: 1em;
+  margin-top: 0em;
+/* ---------- 左侧主内容区 ---------- */
+/* ---------- 右侧信息栏（如新闻、通知等） ---------- */
 }
 .home-sections .left {
   flex: 1.7;
-  min-width: 300px;
+  min-width: 400px;
   padding-right: 1em;
   text-align: justify;
 }
-.right {
+.home-sections .right {
   flex: 1;
-  min-width: 280px;
+  min-width: 300px;
   background: #f8f9fa;
   padding: 0.2em 1em;
   border-radius: 10px;
@@ -11728,29 +11704,105 @@ figure.highlight.foldable div.level-left {
   text-align: left;
   line-height: 1em;
 }
-@media (max-width: 768px) {
-  .home-sections {
-    flex-direction: column;
-  }
+body {
+  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #222;
+  background-color: #fff;
 }
-.news-list p {
-  text-indent: 0 !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  text-align: left !important;
+a {
+  color: #06c;
+  text-decoration: none;
 }
-.news-list div,
-.news-list a,
-.news-list span {
-  text-indent: 0 !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  text-align: left !important;
+a:hover {
+  text-decoration: underline;
 }
-.news-list,
-.news-list * {
-  text-indent: 0 !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  text-align: left !important;
+.content h1 {
+  font-size: 1.2em !important;
+  font-weight: 700;
+  text-align: left;
+  margin: 0.6em 0 0.4em 0 !important;
+  line-height: 1.5;
+  color: #002d72 !important;
+}
+.content h2 {
+  font-size: 1.1em !important;
+  font-weight: 700;
+  margin: 0.3em 0 0.3em 0 !important;
+  text-indent: 0em;
+  color: #222;
+  line-height: 1.5;
+}
+.content h3 {
+  font-size: 1em !important;
+  font-weight: 600;
+  margin: 0.2em 0 0.2em 0 !important;
+  text-indent: 0em;
+  color: #333;
+  line-height: 1.5;
+}
+.content p {
+  text-indent: 2em;
+  margin: 0.2em 0 0.2em 0 !important;
+  line-height: 1.5;
+  text-align: justify;
+  color: #222;
+}
+.content ul,
+.content ol {
+  margin: 0.2em 0em 0.2em 2em !important;
+  line-height: 1.5;
+}
+.content img,
+a img,
+a[href$=".png"],
+a[href$=".jpg"],
+a[href$=".jpeg"],
+a[href$=".gif"] {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.content figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.4em;
+}
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+.content th,
+.content td {
+  border: 1px solid #ddd;
+  padding: 0.6em 0.8em;
+  text-align: left;
+}
+.content th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+.content blockquote {
+  border-left: 4px solid #ccc;
+  background: #f9f9f9;
+  margin: 1em 2em;
+  padding: 0.6em 1em;
+  color: #555;
+  font-style: italic;
+}
+.content code {
+  background: #f2f2f2;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: "Menlo", "Consolas", monospace;
+}
+.footer {
+  font-size: 0.85em;
+  color: #888;
+  text-align: center;
+  padding: 1.2em 0;
+  border-top: 1px solid #eee;
 }
