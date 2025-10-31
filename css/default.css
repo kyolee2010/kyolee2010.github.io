@@ -11690,19 +11690,16 @@ figure.highlight.foldable div.level-left {
 .home-sections .left {
   flex: 1.5;
   min-width: 400px;
-  padding-right: 1em;
+  padding: 0.5em 0.5em;
   text-align: justify;
 }
 .home-sections .right {
   flex: 1;
   min-width: 300px;
   background: #f8f9fa;
-  padding: 0.2em 1em;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0,0,0,0.05);
-  font-size: 0.95em;
-  text-align: left;
-  line-height: 1em;
+  font-size: 0.9em;
 }
 body {
   font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -11724,14 +11721,13 @@ a:hover {
   text-align: left;
   margin: 0.6em 0 0.4em 0 !important;
   line-height: 1.5;
-  color: #8b0000 !important;
+  color: #800020 !important;
 }
 .content h2 {
   font-size: 1.05em !important;
   font-weight: 700;
   margin: 0.3em 0 0.3em 0 !important;
   text-indent: 0em;
-  color: #222;
   line-height: 1.5;
 }
 .content h3 {
@@ -11739,7 +11735,6 @@ a:hover {
   font-weight: 600;
   margin: 0.2em 0 0.2em 0 !important;
   text-indent: 0em;
-  color: #333;
   line-height: 1.5;
 }
 .content p {
@@ -11753,6 +11748,7 @@ a:hover {
 .content ol {
   margin: 0.2em 0em 0.2em 2em !important;
   line-height: 1.5;
+  text-align: justify;
 }
 .content img,
 a img,
@@ -11762,12 +11758,6 @@ a[href$=".jpeg"],
 a[href$=".gif"] {
   pointer-events: none !important;
   cursor: default !important;
-}
-.content figcaption {
-  text-align: center;
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 0.4em;
 }
 .content table {
   width: 100%;
@@ -11810,5 +11800,5 @@ a[href$=".gif"] {
 .content strong,
 .post-body b,
 .post-body strong {
-  color: #8b0000;
+  color: #800020;
 }
