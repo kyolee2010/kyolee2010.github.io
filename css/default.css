@@ -11677,3 +11677,78 @@ figure.highlight.foldable div.level-left {
     padding: 1.5rem 1rem;
   }
 }
+.content h1 {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  margin-top: 0.4em !important;
+  margin-bottom: 0.4em !important;
+  line-height: 1.6 !important;
+}
+.content h1.left {
+  text-align: left;
+}
+.content h1.center {
+  text-align: center;
+}
+.content p {
+  text-indent: 2em !important;
+  font-size: 1em !important;
+  line-height: 1.6 !important;
+  margin-top: 0.2em !important;
+  margin-bottom: 0.2em !important;
+}
+.content p.no-indent {
+  text-indent: 0;
+}
+.content p.center {
+  text-align: center;
+}
+.home-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 2em;
+}
+.home-sections .left {
+  flex: 2;
+  min-width: 300px;
+  padding-right: 1em;
+  text-align: justify;
+}
+.home-sections .right {
+  flex: 1;
+  min-width: 250px;
+  background: #f8f9fa;
+  padding: 1em 1.2em;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  font-size: 0.95em;
+}
+@media (max-width: 768px) {
+  .home-sections {
+    flex-direction: column;
+  }
+}
+.news-list p {
+  text-indent: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+.news-list div,
+.news-list a,
+.news-list span {
+  text-indent: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+.news-list,
+.news-list * {
+  text-indent: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
