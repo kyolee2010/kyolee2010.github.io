@@ -11797,9 +11797,33 @@ a[href$=".gif"] {
   padding: 1.2em 0;
   border-top: 1px solid #eee;
 }
-.content b,
 .content strong,
-.post-body b,
-.post-body strong {
+.content b,
+.post-body strong,
+.post-body b {
   color: #800020;
+  font-weight: bold;
+  font-style: normal;
+}
+.content strong.normal,
+.content b.normal,
+.post-body strong.normal,
+.post-body b.normal {
+  color: inherit;
+}
+.content em strong,
+.content strong em,
+.post-body em strong,
+.post-body strong em {
+  color: #06c;
+  font-weight: bold;
+  font-style: italic;
+}
+.content em strong.normal,
+.content strong.normal em,
+.post-body em strong.normal,
+.post-body strong.normal em {
+  color: inherit;
+  font-weight: bold;
+  font-style: italic;
 }

@@ -11831,9 +11831,37 @@ a[href$=".gif"] {
   padding: 1.2em 0;
   border-top: 1px solid #eee;
 }
-.content b,
+/* 普通粗体：酒红色 */
 .content strong,
-.post-body b,
-.post-body strong {
+.content b,
+.post-body strong,
+.post-body b {
   color: #800020;
+  font-weight: bold;
+  font-style: normal;
+}
+/* 例外：正常颜色粗体 */
+.content strong.normal,
+.content b.normal,
+.post-body strong.normal,
+.post-body b.normal {
+  color: inherit;
+}
+/* 斜粗体：蓝色 */
+.content em strong,
+.content strong em,
+.post-body em strong,
+.post-body strong em {
+  color: #06c;
+  font-weight: bold;
+  font-style: italic;
+}
+/* --- 特例：正常颜色的斜粗体 --- */
+.content em strong.normal,
+.content strong.normal em,
+.post-body em strong.normal,
+.post-body strong.normal em {
+  color: inherit;
+  font-weight: bold;
+  font-style: italic;
 }
