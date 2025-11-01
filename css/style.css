@@ -11735,6 +11735,14 @@ a:hover {
   line-height: 1.5;
   color: #800020 !important;
 }
+/* 特例：居中、继承颜色的 h1 */
+.content h1.center,
+.post-body h1.center,
+.content h1.normal,
+.post-body h1.normal {
+  text-align: center !important;
+  color: inherit !important;
+}
 /* 二级标题（## 标题） */
 .content h2 {
   font-size: 1.05em !important;
@@ -11786,25 +11794,6 @@ a[href$=".gif"] {
   cursor: default !important;
 }
 /* =====================================
-   表格样式
-   ===================================== */
-.content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1em 0;
-  font-size: 0.95em;
-}
-.content th,
-.content td {
-  border: 1px solid #ddd;
-  padding: 0.6em 0.8em;
-  text-align: left;
-}
-.content th {
-  background-color: #f2f2f2;
-  font-weight: 600;
-}
-/* =====================================
    引用与代码块
    ===================================== */
 .content blockquote {
@@ -11828,7 +11817,7 @@ a[href$=".gif"] {
   font-size: 0.85em;
   color: #888;
   text-align: center;
-  padding: 1.2em 0;
+  padding: 1em 0;
   border-top: 1px solid #eee;
 }
 /* 普通粗体：酒红色 */
