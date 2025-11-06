@@ -34,7 +34,7 @@
   var el = document.getElementById('uv_value');
   if (!el) return;
 
-  var NAMESPACE = 'https://kyolee2010.github.io';
+  var NAMESPACE = 'kyolee2010.github.io'; // 不带协议
   var KEY = 'uv';
   var TTL_MS = 60 * 60 * 1000; // 1 小时
   var LS_KEY = 'visit_last_hit_' + NAMESPACE + '_' + KEY;
@@ -47,17 +47,21 @@
   var url = 'https://api.countapi.xyz/' + endpoint + '/' +
             encodeURIComponent(NAMESPACE) + '/' + encodeURIComponent(KEY);
 
+  // ⭐ 提前写入时间戳，防止短时间多次刷新重复计数
+  if (shouldHit) localStorage.setItem(LS_KEY, String(now));
+
   fetch(url)
     .then(function (res) { return res.json(); })
     .then(function (data) {
       if (data && typeof data.value === 'number') {
         el.textContent = String(data.value);
-        if (shouldHit) localStorage.setItem(LS_KEY, String(now));
       } else {
         el.textContent = '—';
       }
     })
-    .catch(function () { el.textContent = '—'; });
+    .catch(function () {
+      el.textContent = '—';
+    });
 })();
           </script></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
             article: {
