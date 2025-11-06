@@ -29,7 +29,37 @@
       switchTab();
       window.addEventListener('hashchange', switchTab, false);
   })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.0"></head><body class="is-1-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item navbar-logo" href="/"><img src="/images/logo.png" alt="Logo"></a><a class="navbar-item" href="/">声功能材料实验室</a><a class="navbar-item" href="/news/">大事件</a><a class="navbar-item" href="/honors/">荣誉</a><a class="navbar-item" href="/achievements/">成果</a><a class="navbar-item" href="/members/">成员</a><a class="navbar-item" href="/alumni/">校友</a><a class="navbar-item" href="/conferences/">报告</a><a class="navbar-item" href="/service/">学术任职</a><a class="navbar-item" href="/media/">媒体报道</a></div><div class="navbar-end"><a class="navbar-item lang-switch" href="/en/">🇺🇸 English</a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-12"><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p>© 2025 李勇课题组 | 同济大学声学研究所</p><p style="margin-top:0.2em;">本站访问量：<span id="busuanzi_value_site_pv">0</span> 次</p><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.0"></head><body class="is-1-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item navbar-logo" href="/"><img src="/images/logo.png" alt="Logo"></a><a class="navbar-item" href="/">声功能材料实验室</a><a class="navbar-item" href="/news/">大事件</a><a class="navbar-item" href="/honors/">荣誉</a><a class="navbar-item" href="/achievements/">成果</a><a class="navbar-item" href="/members/">成员</a><a class="navbar-item" href="/alumni/">校友</a><a class="navbar-item" href="/conferences/">报告</a><a class="navbar-item" href="/service/">学术任职</a><a class="navbar-item" href="/media/">媒体报道</a></div><div class="navbar-end"><a class="navbar-item lang-switch" href="/en/">🇺🇸 English</a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-12"><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p>© 2025 李勇课题组 | 同济大学声学研究所</p><p style="margin-top:0.2em;">本站访问量：<span id="uv_value">0</span> 次</p><script>
+(function () {
+  var el = document.getElementById('uv_value');
+  if (!el) return;
+
+  var NAMESPACE = 'https://kyolee2010.github.io';
+  var KEY = 'uv';
+  var TTL_MS = 60 * 60 * 1000; // 1 小时
+  var LS_KEY = 'visit_last_hit_' + NAMESPACE + '_' + KEY;
+
+  var now = Date.now();
+  var last = parseInt(localStorage.getItem(LS_KEY) || '0', 10);
+  var shouldHit = !last || (now - last) > TTL_MS;
+
+  var endpoint = shouldHit ? 'hit' : 'get';
+  var url = 'https://api.countapi.xyz/' + endpoint + '/' +
+            encodeURIComponent(NAMESPACE) + '/' + encodeURIComponent(KEY);
+
+  fetch(url)
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      if (data && typeof data.value === 'number') {
+        el.textContent = String(data.value);
+        if (shouldHit) localStorage.setItem(LS_KEY, String(now));
+      } else {
+        el.textContent = '—';
+      }
+    })
+    .catch(function () { el.textContent = '—'; });
+})();
+          </script></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
                     clipboard: true,
