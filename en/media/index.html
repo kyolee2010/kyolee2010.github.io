@@ -41,41 +41,7 @@
 </ul>
 
 
-</div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p>© 2025 Acoustic Functional Materials Lab | Tongji University</p><p style="margin-top:0.2em;">Site visits：<span id="uv_value">0</span> times</p><script>
-(function () {
-  var el = document.getElementById('uv_value');
-  if (!el) return;
-
-  var NAMESPACE = 'kyolee2010.github.io'; // 不带协议
-  var KEY = 'uv';
-  var TTL_MS =  10 * 1000; // 1 小时
-  var LS_KEY = 'visit_last_hit_' + NAMESPACE + '_' + KEY;
-
-  var now = Date.now();
-  var last = parseInt(localStorage.getItem(LS_KEY) || '0', 10);
-  var shouldHit = !last || (now - last) > TTL_MS;
-
-  var endpoint = shouldHit ? 'hit' : 'get';
-  var url = 'https://api.countapi.xyz/' + endpoint + '/' +
-            encodeURIComponent(NAMESPACE) + '/' + encodeURIComponent(KEY);
-
-  // ⭐ 提前写入时间戳，防止短时间多次刷新重复计数
-  if (shouldHit) localStorage.setItem(LS_KEY, String(now));
-
-  fetch(url)
-    .then(function (res) { return res.json(); })
-    .then(function (data) {
-      if (data && typeof data.value === 'number') {
-        el.textContent = String(data.value);
-      } else {
-        el.textContent = '—';
-      }
-    })
-    .catch(function () {
-      el.textContent = '—';
-    });
-})();
-          </script></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+</div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p>© 2025 Acoustic Functional Materials Lab | Tongji University</p><p style="margin-top:0.2em;">Site visits：<span id="busuanzi_value_site_uv">0</span> times</p><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
                     clipboard: true,
