@@ -11411,6 +11411,15 @@ a:hover {
   height: 26px !important;
   vertical-align: middle;
 }
+a:has(img),
+a.gallery-item,
+a[data-fancybox],
+a[data-lightbox],
+a[data-gallery],
+img.medium-zoom-image {
+  pointer-events: none !important;
+  cursor: default !important;
+}
 body {
   counter-reset: card;
 }
