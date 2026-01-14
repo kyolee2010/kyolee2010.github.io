@@ -74,45 +74,35 @@
 <li>📝 3月 <strong>王能银</strong>和<strong>黄思博</strong>博士关于超构消声器的科研成果发表于<a target="_blank" rel="noopener" href="https://doi.org/10.1088/2631-7990/acbd6d"><em><strong>极端制造</strong></em></a></li>
 </ul>
 </div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p id="afml_footer_copyright">© 2026 声功能材料实验室</p><p id="busuanzi_container_site_uv" style="margin-top:0.2em;"><span id="afml_footer_visit_label">访客数</span>：<span id="busuanzi_value_site_uv"></span><span id="afml_footer_visit_unit">人</span></p></div><script>(function(){
-  // ---------- language ----------
-  function langFix(){
+  function run(){
     var en = ((document.documentElement.getAttribute('lang')||'').toLowerCase().indexOf('en')===0);
     var y = new Date().getFullYear();
+
     var c = document.getElementById('afml_footer_copyright');
     var l = document.getElementById('afml_footer_visit_label');
     var u = document.getElementById('afml_footer_visit_unit');
+
     if(c) c.textContent = '© ' + y + (en ? ' Acoustic Functional Materials Lab' : ' 声功能材料实验室');
-    if(l) l.textContent = en ? 'Visitors' : '访客数';
+    if(l) l.textContent = en ? 'Hello Visitors' : '访客数';
     if(u) u.textContent = en ? '' : '人';
-  }
 
-  // ---------- busuanzi (fallback) ----------
-  var S = [
-    '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-    'https://cdn.jsdelivr.net/gh/ibruce/busuanzi@2.3/busuanzi.pure.mini.js',
-    'https://unpkg.com/busuanzi@2.3/busuanzi.pure.mini.js'
-  ];
-
-  function load(i){
-    if(window.Busuanzi || i >= S.length) return;
-    var s = document.createElement('script');
-    s.async = true;
-    s.src = S[i];
-    s.onerror = function(){ load(i+1); };
-    document.body.appendChild(s);
-  }
-
-  function boot(){
-    langFix();
-    if(!window.Busuanzi) load(0);
+    // busuanzi 官方源（只加载一次）
+    if(!window.Busuanzi && !document.getElementById('busuanzi_js')){
+      var s = document.createElement('script');
+      s.id = 'busuanzi_js';
+      s.async = true;
+      s.src = '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
+      document.body.appendChild(s);
+    }
   }
 
   if(document.readyState === 'loading')
-    document.addEventListener('DOMContentLoaded', boot);
+    document.addEventListener('DOMContentLoaded', run);
   else
-    boot();
+    run();
 
-  window.addEventListener('pjax:complete', boot);
+  // PJAX 切页后
+  window.addEventListener('pjax:complete', run);
 })();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
