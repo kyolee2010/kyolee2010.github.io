@@ -75,61 +75,34 @@
 
 
 </div>
-</div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p id="afml_footer_copyright">© 2026 声功能材料实验室</p><p id="busuanzi_container_site_uv" style="margin-top:0.2em;"><span id="afml_footer_visit_label">访客数</span>：<span id="busuanzi_value_site_uv"></span><span id="afml_footer_visit_unit">人</span></p></div><script>(function () {
-  function applyLang() {
-    try {
-      var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
-      var isEN = lang.indexOf('en') === 0;
+</div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p id="afml_footer_copyright">© 2026 声功能材料实验室</p><p id="busuanzi_container_site_uv" style="margin-top:0.2em;"><span id="afml_footer_visit_label">访客数</span>：<span id="busuanzi_value_site_uv"></span><span id="afml_footer_visit_unit">人</span></p></div><script>(function(){
+  function run(){
+    try{
+      var isEN = ((document.documentElement.getAttribute('lang')||'').toLowerCase().indexOf('en')===0);
+      var y = new Date().getFullYear();
 
-      var year = new Date().getFullYear();
       var c = document.getElementById('afml_footer_copyright');
       var l = document.getElementById('afml_footer_visit_label');
       var u = document.getElementById('afml_footer_visit_unit');
+      if(c) c.textContent = '© ' + y + (isEN ? ' Acoustic Functional Materials Lab' : ' 声功能材料实验室');
+      if(l) l.textContent = isEN ? 'Visitors' : '访客数';
+      if(u) u.textContent = isEN ? '' : '人';
 
-      if (!c || !l || !u) return;
-
-      if (isEN) {
-        c.textContent = '© ' + year + ' Acoustic Functional Materials Lab';
-        l.textContent = 'Unique visitors';
-        u.textContent = '';
-      } else {
-        c.textContent = '© ' + year + ' 声功能材料实验室';
-        l.textContent = '访客数';
-        u.textContent = '人';
-      }
-    } catch (e) {}
+      var uv = document.getElementById('busuanzi_value_site_uv');
+      if(uv && (!uv.textContent || !uv.textContent.trim())) uv.textContent = '...';
+    }catch(e){}
   }
 
-  function keepBusuanziVisible() {
-    var uv = document.getElementById('busuanzi_value_site_uv');
-    if (!uv) return;
-
-    // 如果 busuanzi 还没写入，给一个占位，避免“访客数：人”
-    if (!uv.textContent || !uv.textContent.trim()) {
-      uv.textContent = '...';
-    }
+  function boot(){
+    run();
+    setTimeout(run, 200);
+    setTimeout(run, 800);
+    setTimeout(run, 2000);
   }
 
-  function boot() {
-    applyLang();
-    keepBusuanziVisible();
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
+  else boot();
 
-    // busuanzi 是异步的，轮询一小会儿即可
-    var n = 0;
-    var timer = setInterval(function () {
-      applyLang();
-      keepBusuanziVisible();
-      if (++n > 60) clearInterval(timer); // ~12 秒
-    }, 200);
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', boot);
-  } else {
-    boot();
-  }
-
-  // PJAX 切换（Icarus）
   window.addEventListener('pjax:complete', boot);
   window.addEventListener('pjax:success', boot);
 })();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
