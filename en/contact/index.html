@@ -30,79 +30,49 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.0"></head><body class="is-1-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item navbar-logo" href="/"><img src="/images/logo.svg" alt="Logo"></a><a class="navbar-item" href="/en/">AFML</a><a class="navbar-item" href="/en/news/">News</a><a class="navbar-item" href="/en/honors/">Honors</a><a class="navbar-item" href="/en/achievements/">Publications</a><a class="navbar-item" href="/en/members/">Members</a><a class="navbar-item" href="/en/alumni/">Alumni</a><a class="navbar-item" href="/en/conferences/">Conferences</a><a class="navbar-item" href="/en/service/">Service</a><a class="navbar-item" href="/en/media/">Media</a><a class="navbar-item is-active" href="/en/contact/">Contact</a></div><div class="navbar-end"><a class="navbar-item lang-switch" href="/">🇨🇳 中文</a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-12"><div class="card"><article class="card-content article" role="article"><h1 class="title is-3 is-size-4-mobile">📧 Contact Information</h1><div class="content"><ul>
-<li>Email: <a href="mailto:&#x79;&#x6f;&#x6e;&#103;&#x6c;&#105;&#x40;&#116;&#x6f;&#x6e;&#x67;&#x6a;&#x69;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#110;">yongli@tongji.edu.cn</a>  </li>
+<li>Email: <a href="mailto:&#121;&#x6f;&#110;&#x67;&#108;&#105;&#64;&#x74;&#x6f;&#x6e;&#x67;&#x6a;&#105;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#110;">yongli@tongji.edu.cn</a>  </li>
 <li>Address: Institute of Acoustics, Tongji University, 1239 Siping Road, Shanghai, China</li>
 </ul>
 </div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p id="afml_footer_copyright">© 2026 声功能材料实验室</p><p id="busuanzi_container_site_uv" style="margin-top:0.2em;"><span id="afml_footer_visit_label">访客数</span>：<span id="busuanzi_value_site_uv"></span><span id="afml_footer_visit_unit">人</span></p></div><script>(function(){
-  /* ========= 语言修正 ========= */
-  function applyLang(){
-    try{
-      var isEN = ((document.documentElement.getAttribute('lang')||'').toLowerCase().indexOf('en')===0);
-      var y = new Date().getFullYear();
-      var c = document.getElementById('afml_footer_copyright');
-      var l = document.getElementById('afml_footer_visit_label');
-      var u = document.getElementById('afml_footer_visit_unit');
-      if(c) c.textContent = '© ' + y + (isEN ? ' Acoustic Functional Materials Lab' : ' 声功能材料实验室');
-      if(l) l.textContent = isEN ? 'Unique visitors' : '访客数';
-      if(u) u.textContent = isEN ? '' : '人';
-    }catch(e){}
+  // ---------- language ----------
+  function langFix(){
+    var en = ((document.documentElement.getAttribute('lang')||'').toLowerCase().indexOf('en')===0);
+    var y = new Date().getFullYear();
+    var c = document.getElementById('afml_footer_copyright');
+    var l = document.getElementById('afml_footer_visit_label');
+    var u = document.getElementById('afml_footer_visit_unit');
+    if(c) c.textContent = '© ' + y + (en ? ' Acoustic Functional Materials Lab' : ' 声功能材料实验室');
+    if(l) l.textContent = en ? 'Unique visitors' : '访客数';
+    if(u) u.textContent = en ? '' : '人';
   }
 
-  /* ========= busuanzi 多源加载 ========= */
-  var BUSUANZI_SOURCES = [
-    // 官方
+  // ---------- busuanzi (fallback) ----------
+  var S = [
     '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-
-    // 国内常见镜像（命中一个即可）
     'https://cdn.jsdelivr.net/gh/ibruce/busuanzi@2.3/busuanzi.pure.mini.js',
-    'https://unpkg.com/busuanzi@2.3/busuanzi.pure.mini.js',
-    'https://cdn.bootcdn.net/ajax/libs/busuanzi/2.3/busuanzi.pure.mini.js'
+    'https://unpkg.com/busuanzi@2.3/busuanzi.pure.mini.js'
   ];
 
-  function loadBusuanzi(i){
-    if(window.Busuanzi || i >= BUSUANZI_SOURCES.length) return;
+  function load(i){
+    if(window.Busuanzi || i >= S.length) return;
     var s = document.createElement('script');
     s.async = true;
-    s.src = BUSUANZI_SOURCES[i];
-    s.onerror = function(){ loadBusuanzi(i+1); };
+    s.src = S[i];
+    s.onerror = function(){ load(i+1); };
     document.body.appendChild(s);
   }
 
-  function ensureBusuanzi(){
-    if(!window.Busuanzi){
-      loadBusuanzi(0);
-    }
-  }
-
-  function ensureUVPlaceholder(){
-    var uv = document.getElementById('busuanzi_value_site_uv');
-    if(uv && (!uv.textContent || !uv.textContent.trim())){
-      uv.textContent = '...';
-    }
-  }
-
-  function run(){
-    applyLang();
-    ensureBusuanzi();
-    ensureUVPlaceholder();
-  }
-
   function boot(){
-    run();
-    setTimeout(run, 300);
-    setTimeout(run, 1200);
-    setTimeout(run, 3000);
+    langFix();
+    if(!window.Busuanzi) load(0);
   }
 
-  if(document.readyState === 'loading'){
+  if(document.readyState === 'loading')
     document.addEventListener('DOMContentLoaded', boot);
-  }else{
+  else
     boot();
-  }
 
-  // PJAX（Icarus）
   window.addEventListener('pjax:complete', boot);
-  window.addEventListener('pjax:success', boot);
 })();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {

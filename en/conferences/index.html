@@ -38,75 +38,45 @@
 <li>2017 — International Congress on Ultrasonics, Honolulu, USA (Invited Talk)</li>
 </ul>
 </div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p id="afml_footer_copyright">© 2026 声功能材料实验室</p><p id="busuanzi_container_site_uv" style="margin-top:0.2em;"><span id="afml_footer_visit_label">访客数</span>：<span id="busuanzi_value_site_uv"></span><span id="afml_footer_visit_unit">人</span></p></div><script>(function(){
-  /* ========= 语言修正 ========= */
-  function applyLang(){
-    try{
-      var isEN = ((document.documentElement.getAttribute('lang')||'').toLowerCase().indexOf('en')===0);
-      var y = new Date().getFullYear();
-      var c = document.getElementById('afml_footer_copyright');
-      var l = document.getElementById('afml_footer_visit_label');
-      var u = document.getElementById('afml_footer_visit_unit');
-      if(c) c.textContent = '© ' + y + (isEN ? ' Acoustic Functional Materials Lab' : ' 声功能材料实验室');
-      if(l) l.textContent = isEN ? 'Unique visitors' : '访客数';
-      if(u) u.textContent = isEN ? '' : '人';
-    }catch(e){}
+  // ---------- language ----------
+  function langFix(){
+    var en = ((document.documentElement.getAttribute('lang')||'').toLowerCase().indexOf('en')===0);
+    var y = new Date().getFullYear();
+    var c = document.getElementById('afml_footer_copyright');
+    var l = document.getElementById('afml_footer_visit_label');
+    var u = document.getElementById('afml_footer_visit_unit');
+    if(c) c.textContent = '© ' + y + (en ? ' Acoustic Functional Materials Lab' : ' 声功能材料实验室');
+    if(l) l.textContent = en ? 'Unique visitors' : '访客数';
+    if(u) u.textContent = en ? '' : '人';
   }
 
-  /* ========= busuanzi 多源加载 ========= */
-  var BUSUANZI_SOURCES = [
-    // 官方
+  // ---------- busuanzi (fallback) ----------
+  var S = [
     '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-
-    // 国内常见镜像（命中一个即可）
     'https://cdn.jsdelivr.net/gh/ibruce/busuanzi@2.3/busuanzi.pure.mini.js',
-    'https://unpkg.com/busuanzi@2.3/busuanzi.pure.mini.js',
-    'https://cdn.bootcdn.net/ajax/libs/busuanzi/2.3/busuanzi.pure.mini.js'
+    'https://unpkg.com/busuanzi@2.3/busuanzi.pure.mini.js'
   ];
 
-  function loadBusuanzi(i){
-    if(window.Busuanzi || i >= BUSUANZI_SOURCES.length) return;
+  function load(i){
+    if(window.Busuanzi || i >= S.length) return;
     var s = document.createElement('script');
     s.async = true;
-    s.src = BUSUANZI_SOURCES[i];
-    s.onerror = function(){ loadBusuanzi(i+1); };
+    s.src = S[i];
+    s.onerror = function(){ load(i+1); };
     document.body.appendChild(s);
   }
 
-  function ensureBusuanzi(){
-    if(!window.Busuanzi){
-      loadBusuanzi(0);
-    }
-  }
-
-  function ensureUVPlaceholder(){
-    var uv = document.getElementById('busuanzi_value_site_uv');
-    if(uv && (!uv.textContent || !uv.textContent.trim())){
-      uv.textContent = '...';
-    }
-  }
-
-  function run(){
-    applyLang();
-    ensureBusuanzi();
-    ensureUVPlaceholder();
-  }
-
   function boot(){
-    run();
-    setTimeout(run, 300);
-    setTimeout(run, 1200);
-    setTimeout(run, 3000);
+    langFix();
+    if(!window.Busuanzi) load(0);
   }
 
-  if(document.readyState === 'loading'){
+  if(document.readyState === 'loading')
     document.addEventListener('DOMContentLoaded', boot);
-  }else{
+  else
     boot();
-  }
 
-  // PJAX（Icarus）
   window.addEventListener('pjax:complete', boot);
-  window.addEventListener('pjax:success', boot);
 })();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
