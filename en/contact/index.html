@@ -30,69 +30,67 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.0"></head><body class="is-1-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item navbar-logo" href="/"><img src="/images/logo.svg" alt="Logo"></a><a class="navbar-item" href="/en/">AFML</a><a class="navbar-item" href="/en/news/">News</a><a class="navbar-item" href="/en/honors/">Honors</a><a class="navbar-item" href="/en/achievements/">Publications</a><a class="navbar-item" href="/en/members/">Members</a><a class="navbar-item" href="/en/alumni/">Alumni</a><a class="navbar-item" href="/en/conferences/">Conferences</a><a class="navbar-item" href="/en/service/">Service</a><a class="navbar-item" href="/en/media/">Media</a><a class="navbar-item is-active" href="/en/contact/">Contact</a></div><div class="navbar-end"><a class="navbar-item lang-switch" href="/">🇨🇳 中文</a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-12"><div class="card"><article class="card-content article" role="article"><h1 class="title is-3 is-size-4-mobile">📧 Contact Information</h1><div class="content"><ul>
-<li>Email: <a href="mailto:&#x79;&#111;&#110;&#x67;&#x6c;&#105;&#64;&#x74;&#x6f;&#x6e;&#x67;&#106;&#x69;&#x2e;&#x65;&#x64;&#117;&#x2e;&#x63;&#110;">yongli@tongji.edu.cn</a>  </li>
+<li>Email: <a href="mailto:&#x79;&#x6f;&#x6e;&#x67;&#x6c;&#x69;&#x40;&#x74;&#111;&#x6e;&#103;&#x6a;&#x69;&#x2e;&#101;&#100;&#117;&#x2e;&#x63;&#110;">yongli@tongji.edu.cn</a>  </li>
 <li>Address: Institute of Acoustics, Tongji University, 1239 Siping Road, Shanghai, China</li>
 </ul>
-</div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p id="afml_footer_copyright">© 2026 声功能材料实验室</p><p id="busuanzi_container_site_uv" style="margin-top:0.2em; display:none;"><span id="afml_footer_visit_label">访客数</span>：<span id="busuanzi_value_site_uv"></span><span id="afml_footer_visit_unit">人</span></p></div><script>(function(){
-            function isEnglish(){
-              try{
-                var p = (location.pathname || '').toLowerCase();
-                return p === '/en/' || p.startsWith('/en/');
-              }catch(e){
-                return false;
-              }
-            }
+</div><!--!--></article></div><!--!--><!--!--></div><!--!--><!--!--></div></div></section><footer class="footer"><div class="container has-text-centered" style="line-height:1.8em; font-size:0.95em;"><p id="afml_footer_copyright">© 2026 声功能材料实验室</p><p id="busuanzi_container_site_uv" style="margin-top:0.2em;"><span id="afml_footer_visit_label">访客数</span>：<span id="busuanzi_value_site_uv"></span><span id="afml_footer_visit_unit">人</span></p></div><script>(function () {
+  function applyLang() {
+    try {
+      var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+      var isEN = lang.indexOf('en') === 0;
 
-            function applyLang(){
-              var en = isEnglish();
-              var y = new Date().getFullYear();
-              var $c = document.getElementById('afml_footer_copyright');
-              var $l = document.getElementById('afml_footer_visit_label');
-              var $u = document.getElementById('afml_footer_visit_unit');
-              if($c) $c.textContent = en ? ('© ' + y + ' Acoustic Functional Materials Lab')
-                                         : ('© ' + y + ' 声功能材料实验室');
-              if($l) $l.textContent = en ? 'Unique visitors' : '访客数';
-              if($u) $u.textContent = en ? '' : '人';
-            }
+      var year = new Date().getFullYear();
+      var c = document.getElementById('afml_footer_copyright');
+      var l = document.getElementById('afml_footer_visit_label');
+      var u = document.getElementById('afml_footer_visit_unit');
 
-            function applyBusuanziVisibility(){
-              var $container = document.getElementById('busuanzi_container_site_uv');
-              var $uv = document.getElementById('busuanzi_value_site_uv');
-              if(!$container || !$uv) return;
+      if (!c || !l || !u) return;
 
-              var v = ($uv.textContent || '').trim();
-              if(v){
-                $container.style.display = '';
-              }else{
-                $container.style.display = 'none';
-              }
-            }
+      if (isEN) {
+        c.textContent = '© ' + year + ' Acoustic Functional Materials Lab';
+        l.textContent = 'Unique visitors';
+        u.textContent = '';
+      } else {
+        c.textContent = '© ' + year + ' 声功能材料实验室';
+        l.textContent = '访客数';
+        u.textContent = '人';
+      }
+    } catch (e) {}
+  }
 
-            function boot(){
-              applyLang();
-              applyBusuanziVisibility();
+  function keepBusuanziVisible() {
+    var uv = document.getElementById('busuanzi_value_site_uv');
+    if (!uv) return;
 
-              // busuanzi 往往异步写入：轮询几次，直到有值
-              var tries = 0;
-              var timer = setInterval(function(){
-                applyLang();
-                applyBusuanziVisibility();
-                tries++;
-                if(tries >= 30) clearInterval(timer); // 约 6 秒
-              }, 200);
-            }
+    // 如果 busuanzi 还没写入，给一个占位，避免“访客数：人”
+    if (!uv.textContent || !uv.textContent.trim()) {
+      uv.textContent = '...';
+    }
+  }
 
-            // 首次加载
-            if (document.readyState === 'loading') {
-              document.addEventListener('DOMContentLoaded', boot);
-            } else {
-              boot();
-            }
+  function boot() {
+    applyLang();
+    keepBusuanziVisible();
 
-            // PJAX 切换后（Icarus 常见）
-            window.addEventListener('pjax:complete', boot);
-            window.addEventListener('pjax:success', boot);
-          })();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+    // busuanzi 是异步的，轮询一小会儿即可
+    var n = 0;
+    var timer = setInterval(function () {
+      applyLang();
+      keepBusuanziVisible();
+      if (++n > 60) clearInterval(timer); // ~12 秒
+    }, 200);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+
+  // PJAX 切换（Icarus）
+  window.addEventListener('pjax:complete', boot);
+  window.addEventListener('pjax:success', boot);
+})();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
                     clipboard: true,
