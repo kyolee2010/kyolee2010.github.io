@@ -11452,3 +11452,9 @@ img.medium-zoom-image {
   pointer-events: none !important;
   cursor: default !important;
 }
+.article-entry ul li {
+  margin-bottom: 0 !important;
+}
+.article-entry ul {
+  margin-bottom: 0.5em !important;
+}
