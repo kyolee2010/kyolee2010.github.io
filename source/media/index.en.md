@@ -2,8 +2,10 @@
 title: "📰 Media Coverage"
 lang: en
 permalink: en/media/
+hide_title: true
 ---
 
-{% include_md "_includes/media.md" en %}
+# 📰 Media Coverage
 
+{% include_md "_includes/media.md" en %}
 
