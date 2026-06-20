@@ -11349,7 +11349,7 @@ h1.title.is-3 {
 .inline-links {
   display: flex;
   align-items: center;
-  gap: 0.15em;
+  gap: 0.05em;
   flex-wrap: wrap;
   margin: 0 0 0.55em !important;
   line-height: 1.35;
