@@ -11361,6 +11361,9 @@ h1.title.is-3 {
   text-indent: 0;
   line-height: 1.5;
 }
+.content p + h2 {
+  margin-top: 0.1em !important;
+}
 .content h3 {
   font-size: 1.05em !important;
   font-weight: 600;
