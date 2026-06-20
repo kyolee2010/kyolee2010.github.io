@@ -11328,7 +11328,7 @@ h1.title.is-3,
 .content h1,
 .page-title,
 .page-header h1 {
-  font-size: 1.2em !important;
+  font-size: 1.18em !important;
   font-weight: 700 !important;
   text-align: left !important;
   margin: 0.45em 0 0.3em 0 !important;
@@ -11342,7 +11342,7 @@ h1.title.is-3,
   text-align: center !important;
 }
 .content h2 {
-  font-size: 1.12em !important;
+  font-size: 1.1em !important;
   font-weight: 700;
   margin: 0.3em 0 0.3em 0 !important;
   text-indent: 0;
@@ -11352,7 +11352,7 @@ h1.title.is-3,
   margin-top: 0.1em !important;
 }
 .content h3 {
-  font-size: 1.05em !important;
+  font-size: 1em !important;
   font-weight: 600;
   margin: 0.2em 0 0.2em 0 !important;
   text-indent: 0;
