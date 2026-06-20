@@ -11518,6 +11518,12 @@ a:hover {
   padding: 1.05rem 0.6rem !important;
   font-size: 1em;
   white-space: nowrap;
+  text-decoration: none !important;
+}
+.navbar-main .navbar-item:hover,
+.navbar-main .navbar-item:focus,
+.navbar-main .navbar-item.is-active {
+  text-decoration: none !important;
 }
 .navbar-item.is-active {
   color: #3273dc;
