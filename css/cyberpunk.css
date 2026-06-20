@@ -11501,6 +11501,9 @@ a:hover {
   max-height: 26px !important;
   vertical-align: middle;
 }
+.navbar .navbar-logo + .navbar-item {
+  padding-left: 0.2rem !important;
+}
 @media screen and (max-width: 768px) {
   html,
   body {
@@ -11541,6 +11544,9 @@ a:hover {
   .navbar .navbar-logo img {
     height: 22px !important;
     max-height: 22px !important;
+  }
+  .navbar .navbar-logo + .navbar-item {
+    padding-left: 0.18rem !important;
   }
 }
 a:has(img),
