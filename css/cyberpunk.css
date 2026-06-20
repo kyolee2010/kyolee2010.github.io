@@ -11302,6 +11302,9 @@ h1.title.is-3 {
   width: 160px;
   border-radius: 50%;
 }
+.article .content .profile-photo {
+  margin-bottom: 0.1em !important;
+}
 .research-figure img {
   width: 300px;
   max-width: 100%;
@@ -11329,7 +11332,7 @@ h1.title.is-3 {
   text-align: center !important;
   font-size: 1.6em;
   line-height: 1.4;
-  margin: 0.4em 0 0.2em;
+  margin: 0.05em 0 0.2em;
 }
 .recruitment-banner {
   color: #3273dc !important;
