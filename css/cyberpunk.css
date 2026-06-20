@@ -11316,11 +11316,7 @@ figure.highlight.foldable div.level-left {
 .article .content a {
   font-weight: 600;
 }
-.article > .title,
-h1.title.is-3,
-.content h1,
-.page-title,
-.page-header h1 {
+.content h1 {
   font-size: 1.2em !important;
   font-weight: 700 !important;
   text-align: left !important;
