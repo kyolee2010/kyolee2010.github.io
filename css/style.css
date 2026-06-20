@@ -11393,6 +11393,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.article .content a {
+  font-weight: 600;
+}
 /* =====================================
    标题
    ===================================== */

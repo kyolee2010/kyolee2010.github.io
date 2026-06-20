@@ -11388,6 +11388,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.article .content a {
+  font-weight: 600;
+}
 .content h1,
 .page-title,
 .page-header h1 {
