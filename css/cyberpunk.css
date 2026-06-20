@@ -11332,6 +11332,17 @@ h1.title.is-3 {
   color: #3273dc !important;
   text-decoration: underline;
 }
+.inline-links {
+  margin: 0.2em 0 1em;
+}
+.inline-links a {
+  display: inline-block;
+}
+.inline-links span {
+  display: inline-block;
+  margin: 0 0.5em;
+  color: #999;
+}
 .include-news {
   margin: 0 auto;
   max-width: 900px;
