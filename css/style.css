@@ -11265,17 +11265,6 @@ h1.title.is-3 {
   flex-wrap: wrap;
   gap: 1em;
 }
-.article .content .home-sections .left {
-  text-align: left;
-  margin-top: 0;
-}
-.article .content .home-sections .right {
-  background: #f8f9fa;
-  padding: 0.3em 0.5em 0.2em 0.5em;
-  border-radius: 8px;
-  box-shadow: 4px 4px 4px rgba(0,0,0,0.05);
-  font-size: 0.9em;
-}
 .article .content .home-layout .home-main {
   flex: 1.5 1 28rem;
 }
@@ -11330,17 +11319,6 @@ h1.title.is-3 {
   line-height: 1.4;
   margin: 0.35em 0 0.2em;
 }
-.recruitment-banner {
-  color: #3273dc !important;
-}
-.text-link {
-  color: #3273dc !important;
-  text-decoration: underline;
-}
-.inline-links {
-  margin: 0 0 0.55em !important;
-  line-height: 1.35;
-}
 .include-news {
   margin: 0 auto;
   max-width: 900px;
@@ -11360,12 +11338,6 @@ h1.title.is-3 {
 .include-news-more {
   text-align: center !important;
   margin-top: 0.8em !important;
-}
-@media (max-width: 480px) {
-  .article .content .home-sections .left {
-    text-align: left !important;
-    padding: 0 !important;
-  }
 }
 /* =====================================
    全局排版（字体、颜色、背景）
@@ -11447,13 +11419,6 @@ a:hover {
   margin: 0.2em 0 0.2em 2em;
   line-height: 1.5;
   text-align: left;
-}
-/* =====================================
-   图片
-   ===================================== */
-.content img.no-click {
-  pointer-events: none;
-  cursor: default;
 }
 /* =====================================
    引用与代码
