@@ -42,6 +42,14 @@
                 console.error('MathJax reload error:', e);
             }
         }
+        // Plugin [Busuanzi] reload logic
+        if (window.bszCaller && window.bszTag) {
+            window.bszCaller.fetch('//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback', a => {
+                window.bszTag.texts(a);
+                window.bszTag.shows();
+            });
+        }
+
         // TODO pace stop loading animation
     });
 
