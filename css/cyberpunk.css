@@ -5260,16 +5260,22 @@ fieldset[disabled] .button {
 .content h3,
 .content h4,
 .content h5,
-.content h6 {
+.content h6,
+.page-title,
+.page-header h1 {
   color: #fcee09;
   font-weight: 400;
   line-height: 1.125;
 }
-.content h1 {
+.content h1,
+.page-title,
+.page-header h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
-.content h1:not(:first-child) {
+.content h1:not(:first-child),
+.page-title:not(:first-child),
+.page-header h1:not(:first-child) {
   margin-top: 1em;
 }
 .content h2 {
@@ -11240,6 +11246,15 @@ figure.highlight.foldable div.level-left {
     padding: 1.5rem 1rem;
   }
 }
+.article > .title,
+h1.title.is-3 {
+  font-size: 1.2em !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  margin: 0em 0 0.2em 0 !important;
+  line-height: 1.5 !important;
+  color: #800020 !important;
+}
 @media screen and (min-width: 1024px) {
   .is-1-column .container {
     max-width: 1120px;
@@ -11328,8 +11343,102 @@ figure.highlight.foldable div.level-left {
   text-align: center !important;
   margin-top: 0.8em !important;
 }
+.article .content a {
+  font-weight: 600;
+}
+.content h1,
+.page-title,
+.page-header h1 {
+  font-size: 1.2em !important;
+  font-weight: 700;
+  text-align: left;
+  margin: 0.6em 0 0.4em 0 !important;
+  line-height: 1.5;
+  color: #800020 !important;
+}
+.content h1.center,
+.post-body h1.center,
+.content h1.normal,
+.post-body h1.normal {
+  text-align: center !important;
+  color: inherit !important;
+}
+.content h2 {
+  font-size: 1.05em !important;
+  font-weight: 700;
+  margin: 0.3em 0 0.3em 0 !important;
+  text-indent: 0;
+  line-height: 1.5;
+}
+.content h3 {
+  font-size: 1em !important;
+  font-weight: 600;
+  margin: 0.2em 0 0.2em 0 !important;
+  text-indent: 0em;
+  line-height: 1.5;
+}
+.content p {
+  text-indent: 2em;
+  margin: 0.2em 0 0.2em 0;
+  line-height: 1.5;
+  text-align: justify;
+  color: #222;
+}
+.content p.noindent {
+  text-indent: 0;
+}
+.content ul + p,
+.content ol + p {
+  text-indent: 0;
+}
+.content ul,
+.content ol {
+  margin: 0.2em 0 0.2em 2em;
+  line-height: 1.5;
+  text-align: left;
+}
 .footer-visitors {
   margin-top: 0.2em;
+}
+.content strong,
+.content b,
+.post-body strong,
+.post-body b {
+  color: #800020;
+  font-weight: bold;
+  font-style: normal;
+}
+.content strong.normal,
+.content b.normal,
+.post-body strong.normal,
+.post-body b.normal {
+  color: inherit;
+}
+.content em strong,
+.content strong em,
+.post-body em strong,
+.post-body strong em {
+  color: #06c;
+  font-weight: bold;
+  font-style: italic;
+}
+.content em strong.normal,
+.content strong.normal em,
+.post-body em strong.normal,
+.post-body strong.normal em {
+  color: inherit;
+  font-weight: bold;
+  font-style: italic;
+}
+.navbar-main .navbar-container,
+.navbar-main .navbar-menu {
+  overflow-x: visible !important;
+}
+.navbar-main .navbar-menu,
+.navbar-main .navbar-start,
+.navbar-main .navbar-end {
+  flex-wrap: wrap;
+  min-width: 0;
 }
 .navbar-main .navbar-item {
   white-space: nowrap;
@@ -11339,6 +11448,10 @@ figure.highlight.foldable div.level-left {
 .navbar-main .navbar-item:focus,
 .navbar-main .navbar-item.is-active {
   text-decoration: none !important;
+}
+.navbar-item.is-active {
+  color: #3273dc;
+  font-weight: 600;
 }
 .navbar .navbar-logo {
   padding: 0 0.2rem 0 0.45rem !important;
