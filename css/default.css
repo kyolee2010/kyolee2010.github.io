@@ -11324,6 +11324,12 @@ h1.title.is-3 {
 .leader-info {
   text-align: center !important;
 }
+.leader-title {
+  text-align: center !important;
+  font-size: 1.6em;
+  line-height: 1.4;
+  margin: 0.4em 0 0.2em;
+}
 .recruitment-banner {
   color: #3273dc !important;
 }
