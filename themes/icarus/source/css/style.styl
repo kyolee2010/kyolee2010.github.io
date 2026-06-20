@@ -305,6 +305,44 @@ a
   max-height 26px !important
   vertical-align middle
 
+@media screen and (max-width: 768px)
+  html,
+  body
+    overflow-x hidden
+
+  .article .content .home-layout .home-main,
+  .article .content .home-layout .home-news,
+  .article .content .member-layout .member-list,
+  .article .content .member-layout .group-photos
+    flex 1 1 100%
+    min-width 0
+
+  .navbar-main .navbar-container,
+  .navbar-main .navbar-menu
+    width 100% !important
+    max-width 100% !important
+    overflow-x hidden !important
+
+  .navbar-main .navbar-menu,
+  .navbar-main .navbar-start,
+  .navbar-main .navbar-end
+    flex 1 1 100%
+    flex-wrap wrap
+    flex-shrink 1
+    justify-content flex-start
+
+  .navbar-main .navbar-item
+    padding .45rem .35rem !important
+    font-size .92em
+    line-height 1.2
+
+  .navbar .navbar-logo
+    padding 0 .15rem 0 0 !important
+
+  .navbar .navbar-logo img
+    height 22px !important
+    max-height 22px !important
+
 // --- 禁止图片点击、禁止灯箱 ---
 a:has(img),
 a.gallery-item,
