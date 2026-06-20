@@ -11,15 +11,6 @@
 @import '../../include/style/widget'
 @import '../../include/style/responsive'
 
-.article > .title,
-h1.title.is-3
-  font-size 1.2em !important
-  font-weight 700 !important
-  text-align left !important
-  margin 0em 0 0.2em 0 !important
-  line-height 1.5 !important
-  color #800020 !important
-
 /* ==========================
    Shared page layouts
    ========================== */
@@ -111,79 +102,6 @@ h1.title.is-3
   text-align center !important
   margin-top .8em !important
 
-
-.article .content a
-  font-weight 600
-
-
-/* =====================================
-   标题
-   ===================================== */
-.content h1
-  font-size 1.2em !important
-  font-weight 700
-  text-align left
-  margin .6em 0 .4em 0 !important
-  line-height 1.5
-  color #800020 !important
-
-.content h1.center,
-.post-body h1.center,
-.content h1.normal,
-.post-body h1.normal
-  text-align center !important
-  color inherit !important
-
-/* 让页面 title（自动渲染）使用与正文 h1 一样的样式 */
-.page-title,
-.page-header h1
-  @extend .content h1
-
-.content h2
-  font-size 1.05em !important
-  font-weight 700
-  margin .3em 0 .3em 0 !important
-  text-indent 0
-  line-height 1.5
-
-.content h3
-  font-size 1em !important
-  font-weight 600
-  margin .2em 0 .2em 0 !important
-  text-indent 0em
-  line-height 1.5
-
-
-/* =====================================
-   正文段落
-   ===================================== */
-.content p
-  text-indent 2em
-  margin .2em 0 .2em 0
-  line-height 1.5
-  text-align justify
-  color #222
-
-// 若某段不需要缩进，给它加 .noindent
-.content p.noindent
-  text-indent 0
-
-// 列表后的第一段不缩进（更自然）
-.content ul + p,
-.content ol + p
-  text-indent 0
-
-
-/* =====================================
-   列表
-   ===================================== */
-.content ul,
-.content ol
-  margin .2em 0 .2em 2em
-  line-height 1.5
-  text-align left   // 列表不建议两端对齐，避免斑马纹
-
-
 /* =====================================
    页脚
    ===================================== */
@@ -192,52 +110,8 @@ h1.title.is-3
 
 
 /* =====================================
-   强调（粗体 / 斜粗体）
-   ===================================== */
-.content strong,
-.content b,
-.post-body strong,
-.post-body b
-  color #800020
-  font-weight bold
-  font-style normal
-
-.content strong.normal,
-.content b.normal,
-.post-body strong.normal,
-.post-body b.normal
-  color inherit
-
-.content em strong,
-.content strong em,
-.post-body em strong,
-.post-body strong em
-  color #0066cc
-  font-weight bold
-  font-style italic
-
-.content em strong.normal,
-.content strong.normal em,
-.post-body em strong.normal,
-.post-body strong.normal em
-  color inherit
-  font-weight bold
-  font-style italic
-
-
-/* =====================================
    导航栏
    ===================================== */
-.navbar-main .navbar-container,
-.navbar-main .navbar-menu
-  overflow-x visible !important
-
-.navbar-main .navbar-menu,
-.navbar-main .navbar-start,
-.navbar-main .navbar-end
-  flex-wrap wrap
-  min-width 0
-
 .navbar-main .navbar-item
   white-space nowrap
   text-decoration none !important
@@ -246,10 +120,6 @@ h1.title.is-3
 .navbar-main .navbar-item:focus,
 .navbar-main .navbar-item.is-active
   text-decoration none !important
-
-.navbar-item.is-active
-  color #3273dc
-  font-weight 600
 
 .navbar .navbar-logo
   padding 0 .2rem 0 .45rem !important
