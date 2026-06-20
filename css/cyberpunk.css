@@ -11342,14 +11342,19 @@ h1.title.is-3 {
   text-decoration: underline;
 }
 .inline-links {
-  margin: 0.2em 0 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+  flex-wrap: wrap;
+  margin: 0 0 0.55em !important;
+  line-height: 1.35;
 }
 .inline-links a {
-  display: inline-block;
+  display: inline-flex;
 }
 .inline-links span {
-  display: inline-block;
-  margin: 0 0.5em;
+  display: inline-flex;
+  margin: 0;
   color: #999;
 }
 .include-news {
