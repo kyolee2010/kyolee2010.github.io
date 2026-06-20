@@ -5,7 +5,7 @@
 </figure>
 <h1 class="center">课题组负责人：李勇教授</h1>
 
-<p class="leader-info noindent">
+<p class="center">
     同济大学声学研究所副所长 <br>
     民航航空器结构智能辅助适航重点实验室副主任 <br>
     <strong class="normal">研究方向：</strong> 物理声学、声学超构材料、噪声振动控制、智能声场调控 <br>
@@ -61,7 +61,7 @@
   <img src="/images/yongli.png" alt="">
 </figure>
 <h1 class="center">Group Leader: Prof. Yong Li</h1>
-<p class="leader-info noindent">
+<p class="center">
     Deputy Director, Institute of Acoustics, Tongji University <br>
     Deputy Director, Civil Aviation Key Laboratory of Intelligent Assisted Airworthiness for Aircraft Structures <br>
 <strong class="normal">Research Interests:</strong> Physical Acoustics, Acoustic Metamaterials, Noise and Vibration Control, Intelligent Acoustic Field Manipulation <br></p>
