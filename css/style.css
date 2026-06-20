@@ -11319,12 +11319,6 @@ h1.title.is-3 {
 .leader-info {
   text-align: center !important;
 }
-.leader-title {
-  text-align: center !important;
-  font-size: 1.5em;
-  line-height: 1.4;
-  margin: 0.35em 0 0.2em;
-}
 .include-news {
   margin: 0 auto;
   max-width: 900px;
@@ -11366,7 +11360,6 @@ h1.title.is-3 {
 .content h1.normal,
 .post-body h1.normal {
   text-align: center !important;
-  color: inherit !important;
 }
 /* 让页面 title（自动渲染）使用与正文 h1 一样的样式 */
 .content h2 {
