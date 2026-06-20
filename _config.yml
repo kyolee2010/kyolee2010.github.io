@@ -1,0 +1,39 @@
+title: 声功能材料实验室 | AFML
+author: Yong Li
+
+language:
+  - zh-CN
+  - en
+default_language: zh-CN
+
+url: https://kyolee2010.github.io
+root: /
+
+permalink: :lang/:title/
+permalink_defaults:
+  lang: zh-CN
+
+
+i18n:
+  type: [page, post]
+
+theme: icarus
+
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+
+per_page: 10
+pagination_dir: page
+
+deploy:
+  type: git
+  repo: git@github.com:kyolee2010/kyolee2010.github.io.git
+  branch: main
+
+plugins:
+  busuanzi: true

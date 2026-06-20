@@ -1,0 +1,316 @@
+// Theme base
+@import '../../include/style/base'
+@import '../../include/style/helper'
+@import '../../include/style/button'
+@import '../../include/style/card'
+@import '../../include/style/article'
+@import '../../include/style/navbar'
+@import '../../include/style/footer'
+@import '../../include/style/pagination'
+@import '../../include/style/codeblock'
+@import '../../include/style/widget'
+@import '../../include/style/responsive'
+
+.article > .title,
+h1.title.is-3
+  font-size 1.2em !important
+  font-weight 700 !important
+  text-align left !important
+  margin 0em 0 0.2em 0 !important
+  line-height 1.5 !important
+  color #800020 !important
+
+/* ==========================
+   Shared page layouts
+   ========================== */
+.article .content .home-sections
+  display: flex
+  flex-direction row
+  justify-content: space-between
+  align-items: flex-start
+  flex-wrap: wrap
+  gap: 1em
+
+.article .content .home-layout
+  .home-main
+    flex 1.5 1 28rem
+  .home-news
+    flex 1 1 18rem
+    background #f8f9fa
+    padding .3em .5em .2em
+    border-radius 8px
+    box-shadow 4px 4px 4px rgba(0,0,0,.05)
+    font-size .9em
+
+.article .content .member-layout
+  .member-list
+    flex 1 1 22rem
+    text-align left
+  .group-photos
+    flex 1.2 1 24rem
+
+.article .content figure
+  margin .6rem 0 .8rem !important
+  text-align center
+
+.article .content figure img
+  display block
+  margin 0 auto
+
+.article .content figure figcaption
+  margin-top .25rem
+  text-align center
+  color #666
+  font-size .95em
+  font-style normal
+
+.profile-photo img
+  width 160px
+  border-radius 50%
+
+.research-figure img
+  width 300px
+  max-width 100%
+
+.group-photo
+  img
+    width 1000px
+    max-width 100%
+
+.leader-info
+  text-align center !important
+
+.leader-title
+  text-align center !important
+  font-size 1.6em
+  line-height 1.4
+  margin .35em 0 .2em
+
+.include-news
+  margin 0 auto
+  max-width 900px
+  padding 0 .5em
+
+.include-news-list
+  margin 0 !important
+  margin-left 0 !important
+  padding-left 1em !important
+  list-style-position outside !important
+
+.include-news-year
+  text-align center
+  font-weight bold
+  margin .2em 0 !important
+
+.include-news-more
+  text-align center !important
+  margin-top .8em !important
+
+
+/* =====================================
+   全局排版（字体、颜色、背景）
+   ===================================== */
+body
+  font-family "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif
+  font-size 16px
+  line-height 1.7
+  color #222
+  background #fff
+
+a
+  color #0066cc
+  text-decoration none
+  &:hover
+    text-decoration underline
+
+.article .content a
+  font-weight 600
+
+
+/* =====================================
+   标题
+   ===================================== */
+.content h1
+  font-size 1.2em !important
+  font-weight 700
+  text-align left
+  margin .6em 0 .4em 0 !important
+  line-height 1.5
+  color #800020 !important
+
+.content h1.center,
+.post-body h1.center,
+.content h1.normal,
+.post-body h1.normal
+  text-align center !important
+  color inherit !important
+
+/* 让页面 title（自动渲染）使用与正文 h1 一样的样式 */
+.page-title,
+.page-header h1
+  @extend .content h1
+
+.content h2
+  font-size 1.05em !important
+  font-weight 700
+  margin .3em 0 .3em 0 !important
+  text-indent 0
+  line-height 1.5
+
+.content h3
+  font-size 1em !important
+  font-weight 600
+  margin .2em 0 .2em 0 !important
+  text-indent 0em
+  line-height 1.5
+
+
+/* =====================================
+   正文段落
+   ===================================== */
+.content p
+  text-indent 2em
+  margin .2em 0 .2em 0
+  line-height 1.5
+  text-align justify
+  color #222
+
+// 若某段不需要缩进，给它加 .noindent
+.content p.noindent
+  text-indent 0
+
+// 列表后的第一段不缩进（更自然）
+.content ul + p,
+.content ol + p
+  text-indent 0
+
+
+/* =====================================
+   列表
+   ===================================== */
+.content ul,
+.content ol
+  margin .2em 0 .2em 2em
+  line-height 1.5
+  text-align left   // 列表不建议两端对齐，避免斑马纹
+
+
+/* =====================================
+   引用与代码
+   ===================================== */
+.content blockquote
+  border-left 4px solid #ccc
+  background #f9f9f9
+  margin 1em 2em
+  padding .6em 1em
+  color #555
+  font-style italic
+
+.content code
+  background #f2f2f2
+  padding .2em .4em
+  border-radius 3px
+  font-family "Menlo", "Consolas", monospace
+
+
+/* =====================================
+   页脚
+   ===================================== */
+.footer
+  font-size .85em
+  color #888
+  text-align center
+  padding 1em 0
+  border-top 1px solid #eee
+
+.footer-inner
+  line-height 1.8em
+  font-size .95em
+
+.footer-visitors
+  margin-top .2em
+
+
+/* =====================================
+   强调（粗体 / 斜粗体）
+   ===================================== */
+.content strong,
+.content b,
+.post-body strong,
+.post-body b
+  color #800020
+  font-weight bold
+  font-style normal
+
+.content strong.normal,
+.content b.normal,
+.post-body strong.normal,
+.post-body b.normal
+  color inherit
+
+.content em strong,
+.content strong em,
+.post-body em strong,
+.post-body strong em
+  color #0066cc
+  font-weight bold
+  font-style italic
+
+.content em strong.normal,
+.content strong.normal em,
+.post-body em strong.normal,
+.post-body strong.normal em
+  color inherit
+  font-weight bold
+  font-style italic
+
+
+/* =====================================
+   导航栏
+   ===================================== */
+.navbar-main .navbar-container,
+.navbar-main .navbar-menu
+  overflow-x visible !important
+
+.navbar-main .navbar-menu,
+.navbar-main .navbar-start,
+.navbar-main .navbar-end
+  flex-wrap wrap
+  min-width 0
+
+.navbar-main .navbar-item
+  padding 1.05rem .6rem !important
+  font-size 1em
+  white-space nowrap
+  text-decoration none !important
+
+.navbar-main .navbar-item:hover,
+.navbar-main .navbar-item:focus,
+.navbar-main .navbar-item.is-active
+  text-decoration none !important
+
+.navbar-item.is-active
+  color #3273dc
+  font-weight 600
+
+.navbar .navbar-logo
+  padding 0 .45rem !important
+
+.navbar .navbar-logo img
+  height 26px !important
+  vertical-align middle
+
+@media (max-width: 900px)
+  .navbar-main .navbar-item
+    padding .55rem .35rem !important
+    font-size .9em
+
+// --- 禁止图片点击、禁止灯箱 ---
+a:has(img),
+a.gallery-item,
+a[data-fancybox],
+a[data-lightbox],
+a[data-gallery],
+img.medium-zoom-image
+  pointer-events: none !important
+  cursor: default !important
