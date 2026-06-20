@@ -5260,22 +5260,16 @@ fieldset[disabled] .button {
 .content h3,
 .content h4,
 .content h5,
-.content h6,
-.page-title,
-.page-header h1 {
+.content h6 {
   color: #363636;
   font-weight: 400;
   line-height: 1.125;
 }
-.content h1,
-.page-title,
-.page-header h1 {
+.content h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
-.content h1:not(:first-child),
-.page-title:not(:first-child),
-.page-header h1:not(:first-child) {
+.content h1:not(:first-child) {
   margin-top: 1em;
 }
 .content h2 {
@@ -11245,15 +11239,6 @@ figure.highlight.foldable div.level-left {
     padding: 1.5rem 1rem;
   }
 }
-.article > .title,
-h1.title.is-3 {
-  font-size: 1.25em !important;
-  font-weight: 700 !important;
-  text-align: left !important;
-  margin: 0 0 0.2em 0 !important;
-  line-height: 1.5 !important;
-  color: #800020 !important;
-}
 /* ==========================
    Shared page layouts
    ========================== */
@@ -11344,14 +11329,16 @@ h1.title.is-3 {
 /* =====================================
    标题
    ===================================== */
+.article > .title,
+h1.title.is-3,
 .content h1,
 .page-title,
 .page-header h1 {
-  font-size: 1.25em !important;
-  font-weight: 700;
-  text-align: left;
-  margin: 0.6em 0 0.4em 0 !important;
-  line-height: 1.5;
+  font-size: 1.2em !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  margin: 0.45em 0 0.3em 0 !important;
+  line-height: 1.5 !important;
   color: #800020 !important;
 }
 .content h1.center,
@@ -11360,7 +11347,6 @@ h1.title.is-3 {
 .post-body h1.normal {
   text-align: center !important;
 }
-/* 让页面 title（自动渲染）使用与正文 h1 一样的样式 */
 .content h2 {
   font-size: 1.12em !important;
   font-weight: 700;
