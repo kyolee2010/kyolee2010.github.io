@@ -1,5 +1,5 @@
 ---
-title: "📧 联系方式 "
+title: "📧 联系方式"
 lang: zh-CN
 permalink: contact/
 hide_title: true
