@@ -11512,8 +11512,8 @@ a:hover {
   min-width: 0;
 }
 .navbar-main .navbar-item {
-  padding: 0.85rem 0.45rem !important;
-  font-size: 0.95em;
+  padding: 1.05rem 0.6rem !important;
+  font-size: 1em;
   white-space: nowrap;
 }
 .navbar-item.is-active {
@@ -11521,7 +11521,7 @@ a:hover {
   font-weight: 600;
 }
 .navbar .navbar-logo {
-  padding: 0 0.35rem !important;
+  padding: 0 0.45rem !important;
 }
 .navbar .navbar-logo img {
   height: 26px !important;
