@@ -26,7 +26,7 @@ function renderNews(args, options) {
     const year = /^##\s*(.+)/.exec(line);
     if (year) {
       if (++years > yearLimit) break;
-      output.push(`<h2 class="include-news-year">${year[1]}</h2>\n`);
+      output.push(`<h2>${year[1]}</h2>\n`);
       continue;
     }
     if (/^[-*]\s+/.test(line)) {
