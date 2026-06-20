@@ -11332,8 +11332,7 @@ h1.title.is-3,
   line-height: 1.5 !important;
   color: #800020 !important;
 }
-.content .center,
-.post-body .center {
+.content .center {
   text-align: center !important;
   text-indent: 0;
 }
@@ -11378,31 +11377,23 @@ h1.title.is-3,
   margin-top: 0.2em;
 }
 .content strong,
-.content b,
-.post-body strong,
-.post-body b {
+.content b {
   color: #800020;
   font-weight: bold;
   font-style: normal;
 }
 .content strong.normal,
-.content b.normal,
-.post-body strong.normal,
-.post-body b.normal {
+.content b.normal {
   color: inherit;
 }
 .content em strong,
-.content strong em,
-.post-body em strong,
-.post-body strong em {
+.content strong em {
   color: #06c;
   font-weight: bold;
   font-style: italic;
 }
 .content em strong.normal,
-.content strong.normal em,
-.post-body em strong.normal,
-.post-body strong.normal em {
+.content strong.normal em {
   color: inherit;
   font-weight: bold;
   font-style: italic;
