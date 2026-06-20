@@ -11501,16 +11501,37 @@ a:hover {
   font-weight: bold;
   font-style: italic;
 }
+.navbar-main .navbar-container,
+.navbar-main .navbar-menu {
+  overflow-x: visible !important;
+}
+.navbar-main .navbar-menu,
+.navbar-main .navbar-start,
+.navbar-main .navbar-end {
+  flex-wrap: wrap;
+  min-width: 0;
+}
+.navbar-main .navbar-item {
+  padding: 0.85rem 0.45rem !important;
+  font-size: 0.95em;
+  white-space: nowrap;
+}
 .navbar-item.is-active {
   color: #3273dc;
   font-weight: 600;
 }
 .navbar .navbar-logo {
-  padding: 0em !important /* 默认大约是 0.75em，这里缩小 */;
+  padding: 0 0.35rem !important;
 }
 .navbar .navbar-logo img {
   height: 26px !important;
   vertical-align: middle;
+}
+@media (max-width: 900px) {
+  .navbar-main .navbar-item {
+    padding: 0.55rem 0.35rem !important;
+    font-size: 0.9em;
+  }
 }
 a:has(img),
 a.gallery-item,
