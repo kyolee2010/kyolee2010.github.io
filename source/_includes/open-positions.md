@@ -5,7 +5,7 @@
 <!--lang:end-->
 
 <!--lang:en-->
-- We welcome inquiries from prospective postdocs, PhD students, and MSc students.
-- Interested candidates are encouraged to contact us by email with a CV, research interests, and representative achievements.
+- We welcome inquiries from prospective postdoctoral researchers, PhD students, and MSc students.
+- Interested candidates are encouraged to email us with a CV, research interests, and representative achievements.
 - Contact: <a href="mailto:yongli@tongji.edu.cn">yongli@tongji.edu.cn</a>
 <!--lang:end-->

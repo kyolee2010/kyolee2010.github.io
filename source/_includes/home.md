@@ -67,7 +67,7 @@
 <strong class="normal">Research Interests:</strong> Physical Acoustics, Acoustic Metamaterials, Noise and Vibration Control, Intelligent Acoustic Field Manipulation <br></p>
 
 <p>
-Prof. Li's research focuses on acoustic functional materials for controlling sound fields in complex environments, spanning fundamental wave physics, acoustic metamaterials, and noise-control applications. He has published more than 110 papers as first or corresponding author, including co-first and co-corresponding authorships, in leading journals such as <em>Physical Review Letters</em>, <em>National Science Review</em>, <em>Science Advances</em>, <em>Nature Communications</em>, <em>Nature Reviews Materials</em>, <em>Nature Reviews Physics</em>, <em>Reports on Progress in Physics</em>, and <em>Science Bulletin</em>; 14 of these papers are ESI Highly Cited Papers. His work has been selected as Editors' Suggestions and featured by APS, AIP, Phys.org, Physics Buzz, Science Daily, and other media outlets. His publications have received <a href="https://scholar.google.com/citations?user=KL5t7XoAAAAJ&hl"><em>more than 14,500 citations, with an H-index of 54</em></a>. He has been named to Highly Cited Researchers lists and the world's top 2% scientists list for career-long impact. His honors include the First Prize of the Ministry of Education Natural Science Award and the Wei Mo’an Acoustics Award from the Shanghai Acoustical Society. Students under his supervision have won a National Gold Medal in the China International College Students Innovation Competition. Patents on acoustic metamaterial absorbers have been transferred and deployed in large-scale compressor noise-reduction systems, enabling low-noise operation of major equipment.
+Prof. Li's research focuses on acoustic functional materials for sound-field control in complex environments, spanning fundamental wave physics, acoustic metamaterials, and noise-control applications. He has published more than 110 papers as first or corresponding author, including co-first and co-corresponding roles, in leading journals such as <em>Physical Review Letters</em>, <em>National Science Review</em>, <em>Science Advances</em>, <em>Nature Communications</em>, <em>Nature Reviews Materials</em>, <em>Nature Reviews Physics</em>, <em>Reports on Progress in Physics</em>, and <em>Science Bulletin</em>; 14 of these papers are ESI Highly Cited Papers. His work has been selected as Editors' Suggestions and featured by APS, AIP, Phys.org, Physics Buzz, Science Daily, and other media outlets. His publications have received <a href="https://scholar.google.com/citations?user=KL5t7XoAAAAJ&hl"><em>more than 14,500 citations, with an H-index of 54</em></a>. He has been recognized on Highly Cited Researchers lists and the world's top 2% scientists list for career-long impact. His honors include the First Prize of the Ministry of Education Natural Science Award and the Wei Mo’an Acoustics Award from the Shanghai Acoustical Society. His students have won a National Gold Medal in the China International College Students Innovation Competition. Patents on acoustic metamaterial absorbers have been transferred and deployed in large-scale compressor noise-reduction systems, supporting low-noise operation of major equipment.
 </p>
 
 
@@ -84,21 +84,21 @@ Prof. Li's research focuses on acoustic functional materials for controlling sou
 # 🧠 Research Interests
 
 ## 1. Acoustic Functional Materials for Exotic Wave-Field Control
-<p> We study how artificial structures and functional materials shape acoustic fields in complex media, with an emphasis on wave propagation, interference, localization, wavefront shaping, resonant coupling, and nonreciprocal sound transport. This work aims to clarify sound–matter interactions and provide design principles for precise acoustic energy control and advanced acoustic devices.</p>  
+<p>We study how artificial structures and functional materials shape acoustic fields in complex media, with an emphasis on wave propagation, interference, localization, wavefront shaping, resonant coupling, and nonreciprocal transport. This direction aims to clarify sound-matter interactions and establish design principles for precise acoustic energy control and advanced acoustic devices.</p>
 
 <figure class="research-figure">
   <img src="/images/Research1.jpg" alt="">
 </figure>
 
 ## 2. Applications of Acoustic Functional Materials
-<p> We develop acoustic functional materials for noise control and acoustic performance optimization in major engineering systems. The research focuses on high-performance sound-absorbing metamaterials and multifunctional composites based on deep-subwavelength structures, with particular attention to resonance, coupling, interference, and dissipation. The goal is to enable broadband, efficient, lightweight, and programmable solutions for sound absorption and insulation in transportation, aerospace, and precision acoustic engineering.</p>  
+<p>We develop acoustic functional materials for noise control and acoustic performance optimization in major engineering systems. This direction focuses on high-performance sound-absorbing metamaterials and multifunctional composites based on deep-subwavelength structures, with particular attention to resonance, coupling, interference, and dissipation. The goal is to enable broadband, efficient, lightweight, and programmable solutions for sound absorption and insulation in transportation, aerospace, and precision acoustic engineering.</p>
 
 <figure class="research-figure">
   <img src="/images/Research2.jpg" alt="">
 </figure>
 
 ## 3. Non-Hermitian and Topological Acoustics
-<p> We explore the intersection of non-Hermitian physics and topological acoustics, focusing on acoustic implementations of gain/loss modulation, exceptional points (EPs), and topological edge states. This work investigates nonreciprocal sound propagation, asymmetric mode coupling, and robust energy transport, with the broader aim of advancing acoustic communication, reconfigurable wave control, and intelligent acoustic systems.</p>
+<p>We explore the intersection of non-Hermitian physics and topological acoustics, focusing on acoustic implementations of gain/loss modulation, exceptional points (EPs), and topological edge states. This direction investigates nonreciprocal sound propagation, asymmetric mode coupling, and robust energy transport, with the broader aim of advancing acoustic communication, reconfigurable wave control, and intelligent acoustic systems.</p>
 
 <figure class="research-figure">
   <img src="/images/Research3.jpg" alt="">

@@ -71,8 +71,8 @@
 - 🪪 In January, **Prof. Yong Li** was named to the **2025 Elsevier "Highly Cited Chinese Researchers"** list
 ## 2025
 - 🪪 In December, **Chuanhao Ge** received a **2025 Tongji University Outstanding MSc Thesis Award**
-- 🔬 In December, **Quansen Wang** joined the [***CAST Young Scientists Development Program (PhD Track)***](https://mp.weixin.qq.com/s/ENviGko6oqK49Ugc3lc_Cw) 
-- 🔬 In December, **Yihuan Zhu** joined the [***CAST Young Scientists Development Program (PhD Track)***](https://mp.weixin.qq.com/s/ENviGko6oqK49Ugc3lc_Cw)
+- 🔬 In December, **Quansen Wang** was selected for the [***CAST Young Scientists Development Program (PhD Track)***](https://mp.weixin.qq.com/s/ENviGko6oqK49Ugc3lc_Cw)
+- 🔬 In December, **Yihuan Zhu** was selected for the [***CAST Young Scientists Development Program (PhD Track)***](https://mp.weixin.qq.com/s/ENviGko6oqK49Ugc3lc_Cw)
 - 🔬 In December, **Dr. Ruizhi Dong** was selected for the [***Shanghai "Super Postdoctoral" Incentive Program***](https://mp.weixin.qq.com/s/Iy49sFZx6k1lsI-wglH3Cg)
 - 🪪 In November, **Nengyin Wang** received the **Tongji University Outstanding Student Award**
 - 🪪 In November, **Nengyin Wang** received the [***Bronze Convergence Award at the 5th "HaiJu YingCai" Global Innovation & Entrepreneurship Competition***](https://mp.weixin.qq.com/s/W_0Jp6WdK3cDoX4wKh3AeQ)
@@ -80,7 +80,7 @@
 - 🪪 In November, **Prof. Yong Li** joined the **Editorial Advisory Board** of [***APS Open Science***](https://journals.aps.org/apsos/)
 - 🪪 In November, **Dr. Sibo Huang** was named to a **National Young Talent Program**
 - 🔬 In November, **Dr. Zhiling Zhou** received the **Hong Kong RGC Junior Research Fellow Award**
-- 💼 In October, **Dr. Sibo Huang** was appointed **Assoc. Prof. at Shanghai Jiao Tong University**
+- 💼 In October, **Dr. Sibo Huang** was appointed **Associate Professor at Shanghai Jiao Tong University**
 - 🪪 In October, **Nengyin Wang** received the **National PhD Scholarship**
 - 🪪 In October, **Quansen Wang** received the **National PhD Scholarship**
 - 🪪 In October, **Chun Liu** received the **National MSc Scholarship**
@@ -97,21 +97,21 @@
 ## 2024
 - 🔬 In December, **Prof. Yong Li** was named to the **Shanghai "Oriental Talent" Leading Program**
 - 🔬 In December, **Dr. Chen Shao** was selected for the **Shanghai "Super Postdoctoral" Incentive Program**
-- 🪪 In December, **Nengyin Wang** was named a **Tongji University Academic Pioneer Graduate Student**
+- 🪪 In December, **Nengyin Wang** was recognized as a **Tongji University Academic Pioneer Graduate Student**
 - 🔬 In December, **Quansen Wang** received an **NSFC Basic Research Grant for PhD Students**
 - 🪪 In November, **Dr. Sibo Huang** was named to a **National Young Talent Program**
 - 🪪 In November, **Quansen Wang** received an **ASA CIRE Grant** (Acoustical Society of America)
 - 🔬 In November, **Dr. Chen Shao** received a **China Postdoctoral Science Foundation Grant**
 - 🪪 In October, **Prof. Yong Li** was recognized as an **Outstanding Innovation and Entrepreneurship Mentor** at the **China International College Students Innovation Competition**
 - 🏆 In October, **Nengyin Wang** and team won the **National Gold Medal** at the **China International College Students Innovation Competition**
-- 🏆 In October, **Nengyin Wang** and team won the **Shanghai regional Gold Award and runner-up prize** at the same competition
+- 🏆 In October, **Nengyin Wang** and team won the **Shanghai Regional Gold Award and Runner-up Prize** at the same competition
 - 🔬 In August, **Dr. Chen Shao** received the **NSFC Young Scientists Fund**
 - 🔬 In August, **Dr. Chao Song** received the **NSFC Young Scientists Fund**
 - 🪪 In May, **Dr. Zhiling Zhou** was named a **Shanghai Outstanding Graduate**
 - 🪪 In March, **Dr. Zhiling Zhou** received a **Tongji University Outstanding PhD Dissertation Award**
 
 ## 2023
-- 📝 In October, our review on acoustic metasurfaces was published in [***Reports on Progress in Physics***](https://iopscience.iop.org/article/10.1088/1361-6633/acfbeb)
+- 📝 In October, our review of acoustic metasurfaces was published in [***Reports on Progress in Physics***](https://iopscience.iop.org/article/10.1088/1361-6633/acfbeb)
 - 📝 In March, **Zhiling Zhou** and **Bin Jia** published a paper on chiral metasurfaces in [***Physical Review Letters***](https://link.aps.org/doi/10.1103/PhysRevLett.130.116101)
 - 📝 In March, **Nengyin Wang** and **Dr. Sibo Huang** published a paper on metamaterial silencers in [***International Journal of Extreme Manufacturing***](https://doi.org/10.1088/2631-7990/acbd6d)
 

@@ -189,7 +189,7 @@
 - Named to the **Elsevier Highly Cited Chinese Researchers** list  
 - Received the **Wei Mo’an Acoustics Award** from the Shanghai Acoustical Society  
 
-### Before 2022
+### Prior to 2022
 - 2022 — Named to the **Elsevier Highly Cited Chinese Researchers** list  
 - 2021 — Named to the **Elsevier Highly Cited Chinese Researchers** list  
 - 2020 — Named to a **National Young Talent Program**  

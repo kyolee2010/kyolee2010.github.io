@@ -74,7 +74,7 @@
 - **Chen Shao** (joined 2023)  
 <!-- - **Chao Song** (Joined 2023)   -->
 
-## Graduate Students (Including Joint Programs)
+## Graduate Students (including joint programs)
 
 ### PhD Students
 <!--- **Yufan Feng** (PhD, 2026 cohort)-->

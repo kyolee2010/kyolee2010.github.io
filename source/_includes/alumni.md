@@ -38,7 +38,7 @@
 
 <!--lang:en-->
 ### 2026
-- **Chao Song** (Postdoc, 2026; Assoc. Prof., Shanghai Dianji University)
+- **Chao Song** (Postdoc, 2026; Associate Professor, Shanghai Dianji University)
 - **Nengyin Wang** (PhD, 2026; Shanghai Outstanding Graduate; Postdoc, Tongji University)  
 - **Junmei Cao** (PhD, 2026; Goertek Acoustics)
 - **Chun Liu** (MSc, 2026; Shokz Technology)
@@ -60,7 +60,7 @@
 - **Bin Jia** (MSc, 2023; PhD student, Tongji University)
 
 ### 2022
-- **Sibo Huang** (PhD, 2022; Shanghai Outstanding Graduate; Assoc. Prof., Shanghai Jiao Tong University; **National Young Talent Program, 2025**)
+- **Sibo Huang** (PhD, 2022; Shanghai Outstanding Graduate; Associate Professor, Shanghai Jiao Tong University; **National Young Talent Program, 2025**)
 - **Xinsheng Fang** (PhD, 2022; Senior Engineer, China State Shipbuilding Corporation)  
 - **Hua Ding** (MSc, 2022; PhD student, Tongji University)  
 - **Panpan Chen** (MSc, 2022; PhD student, University of Illinois Urbana-Champaign, USA)  
