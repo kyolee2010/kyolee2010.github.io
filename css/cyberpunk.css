@@ -11310,14 +11310,14 @@ h1.title.is-3 {
   max-width: 100%;
 }
 .group-photo {
-  margin-bottom: 1.5em;
+  margin-bottom: 1rem;
 }
 .group-photo img {
   width: 1000px;
   max-width: 100%;
 }
 .group-photo figcaption {
-  margin-top: 0.35rem;
+  margin-top: 0.25rem;
   text-align: center;
   color: #666;
   font-size: 0.95em;
