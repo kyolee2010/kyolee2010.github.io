@@ -1,5 +1,5 @@
 <!--lang:zh-CN-->
-<h2>完整论文列表 <a href="https://scholar.google.com/citations?user=KL5t7XoAAAAJ&hl">Google Scholar</a> | <a href="https://webofscience.clarivate.cn/wos/author/record/LGZ-7283-2024">Web of Science</a></h2>
+<h2>完整论文列表可见 <a href="https://scholar.google.com/citations?user=KL5t7XoAAAAJ&hl">Google Scholar</a> | <a href="https://webofscience.clarivate.cn/wos/author/record/LGZ-7283-2024">Web of Science</a></h2>
 
 ## 代表性论文（*通讯作者，+同等贡献作者）
 ### 2025
@@ -56,7 +56,7 @@
 
 
 <!--lang:en-->
-<h2>Full Publication List <a href="https://scholar.google.com/citations?user=KL5t7XoAAAAJ&hl">Google Scholar</a> | <a href="https://webofscience.clarivate.cn/wos/author/record/LGZ-7283-2024">Web of Science</a></h2>
+<h2>For the complete publication record, see <a href="https://scholar.google.com/citations?user=KL5t7XoAAAAJ&hl">Google Scholar</a> | <a href="https://webofscience.clarivate.cn/wos/author/record/LGZ-7283-2024">Web of Science</a></h2>
 
 ## Representative Papers (*Corresponding author, +Equal contribution)
 ### 2025
