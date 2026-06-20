@@ -11294,36 +11294,20 @@ h1.title.is-3 {
 .article .content .member-layout .group-photos {
   flex: 1.2 1 24rem;
 }
-.profile-photo,
-.research-figure,
-.group-photo {
-  margin: 0;
+.article .content figure {
+  margin: 0.6rem 0 0.8rem !important;
   text-align: center;
 }
-.article .content .profile-photo,
-.article .content .research-figure,
-.article .content .group-photo {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  text-align: center;
-}
-.article .content .profile-photo {
-  margin-top: 0 !important;
-  margin-bottom: 0.1em !important;
-}
-.article .content .research-figure {
-  margin-top: 0.35rem !important;
-  margin-bottom: 0.8rem !important;
-}
-.article .content .group-photo {
-  margin-top: 0 !important;
-  margin-bottom: 1rem !important;
-}
-.article .content .profile-photo img,
-.article .content .research-figure img,
-.article .content .group-photo img {
+.article .content figure img {
   display: block;
   margin: 0 auto;
+}
+.article .content figure figcaption {
+  margin-top: 0.25rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.95em;
+  font-style: normal;
 }
 .profile-photo img {
   width: 160px;
@@ -11337,16 +11321,6 @@ h1.title.is-3 {
   width: 1000px;
   max-width: 100%;
 }
-.group-photo figcaption {
-  margin-top: 0.25rem;
-  text-align: center;
-  color: #666;
-  font-size: 0.95em;
-  font-style: normal;
-}
-.article .content .group-photo:last-child {
-  margin-bottom: 0;
-}
 .leader-info {
   text-align: center !important;
 }
@@ -11355,9 +11329,6 @@ h1.title.is-3 {
   font-size: 1.6em;
   line-height: 1.4;
   margin: 0.05em 0 0.2em;
-}
-.article .content .profile-photo + .leader-title {
-  margin-top: -0.15em !important;
 }
 .recruitment-banner {
   color: #3273dc !important;
