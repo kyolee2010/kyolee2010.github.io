@@ -11341,7 +11341,7 @@ h1.title.is-3 {
 .publication-list-heading {
   margin: 0.2em 0 0.6em !important;
 }
-.publication-list-heading .heading-links {
+.publication-list-heading a {
   font-size: 0.72em;
   font-weight: 600;
   margin-left: 0.35em;
