@@ -11520,7 +11520,7 @@ a:hover {
   font-weight: 600;
 }
 .navbar .navbar-logo {
-  padding: 0 0.45rem !important;
+  padding: 0 0.2rem 0 0.45rem !important;
   pointer-events: auto !important;
 }
 .navbar .navbar-logo img {
