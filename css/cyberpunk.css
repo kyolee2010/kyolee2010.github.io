@@ -11321,7 +11321,7 @@ h1.title.is-3,
 .content h1,
 .page-title,
 .page-header h1 {
-  font-size: 1.22em !important;
+  font-size: 1.2em !important;
   font-weight: 700 !important;
   text-align: left !important;
   margin: 0.45em 0 0.3em 0 !important;
@@ -11333,7 +11333,7 @@ h1.title.is-3,
   text-indent: 0;
 }
 .content h2 {
-  font-size: 1.1em !important;
+  font-size: 1.15em !important;
   font-weight: 700;
   margin: 0.3em 0 0.3em 0 !important;
   text-indent: 0;
