@@ -11345,23 +11345,6 @@ h1.title.is-3 {
   text-align: center !important;
   margin-top: 0.8em !important;
 }
-/* =====================================
-   全局排版（字体、颜色、背景）
-   ===================================== */
-body {
-  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #222;
-  background: #fff;
-}
-a {
-  color: #06c;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
 .article .content a {
   font-weight: 600;
 }
@@ -11427,36 +11410,8 @@ a:hover {
   text-align: left;
 }
 /* =====================================
-   引用与代码
-   ===================================== */
-.content blockquote {
-  border-left: 4px solid #ccc;
-  background: #f9f9f9;
-  margin: 1em 2em;
-  padding: 0.6em 1em;
-  color: #555;
-  font-style: italic;
-}
-.content code {
-  background: #f2f2f2;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-family: "Menlo", "Consolas", monospace;
-}
-/* =====================================
    页脚
    ===================================== */
-.footer {
-  font-size: 0.85em;
-  color: #888;
-  text-align: center;
-  padding: 1em 0;
-  border-top: 1px solid #eee;
-}
-.footer-inner {
-  line-height: 1.8em;
-  font-size: 0.95em;
-}
 .footer-visitors {
   margin-top: 0.2em;
 }
