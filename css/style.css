@@ -11462,6 +11462,7 @@ h1.title.is-3 {
   min-width: 0;
 }
 .navbar-main .navbar-item {
+  font-size: 1rem;
   white-space: nowrap;
   text-decoration: none !important;
 }
