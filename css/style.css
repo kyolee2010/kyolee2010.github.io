@@ -11341,6 +11341,22 @@ h1.title.is-3 {
   margin: 0 0 0.55em !important;
   line-height: 1.35;
 }
+.publication-list-heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 0.45em;
+  row-gap: 0.1em;
+  margin: 0.2em 0 0.6em;
+}
+.publication-list-heading h2 {
+  margin: 0 !important;
+}
+.publication-list-heading .heading-links {
+  margin: 0 !important;
+  line-height: 1.35;
+  font-weight: 600;
+}
 .include-news {
   margin: 0 auto;
   max-width: 900px;
