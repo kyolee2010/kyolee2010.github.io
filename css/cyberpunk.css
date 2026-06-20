@@ -11255,6 +11255,12 @@ h1.title.is-3 {
   line-height: 1.5 !important;
   color: #800020 !important;
 }
+@media screen and (min-width: 1024px) {
+  .is-1-column .container {
+    max-width: 1120px;
+    width: calc(100% - 2rem);
+  }
+}
 .article .content .home-sections {
   display: flex;
   flex-direction: row;
