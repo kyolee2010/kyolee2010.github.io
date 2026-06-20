@@ -23,6 +23,11 @@ h1.title.is-3
 /* ==========================
    Shared page layouts
    ========================== */
+@media screen and (min-width: 1024px)
+  .is-1-column .container
+    max-width 1120px
+    width calc(100% - 2rem)
+
 .article .content .home-sections
   display: flex
   flex-direction row
