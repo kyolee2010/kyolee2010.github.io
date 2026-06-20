@@ -11264,14 +11264,86 @@ h1.title.is-3 {
 }
 .article .content .home-sections .left {
   text-align: left;
-  margin-top: 0em;
+  margin-top: 0;
 }
 .article .content .home-sections .right {
   background: #f8f9fa;
   padding: 0.3em 0.5em 0.2em 0.5em;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.05);
   font-size: 0.9em;
+}
+.article .content .home-layout .home-main {
+  flex: 1.5 1 28rem;
+}
+.article .content .home-layout .home-news {
+  flex: 1 1 18rem;
+  background: #f8f9fa;
+  padding: 0.3em 0.5em 0.2em;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.05);
+  font-size: 0.9em;
+}
+.article .content .member-layout .member-list {
+  flex: 1 1 22rem;
+  text-align: left;
+}
+.article .content .member-layout .group-photos {
+  flex: 1.2 1 24rem;
+}
+.profile-photo,
+.research-figure,
+.group-photo {
+  margin: 0;
+  text-align: center;
+}
+.profile-photo img {
+  width: 160px;
+  border-radius: 50%;
+}
+.research-figure img {
+  width: 300px;
+  max-width: 100%;
+}
+.group-photo {
+  margin-bottom: 1.5em;
+}
+.group-photo img {
+  width: 1000px;
+  max-width: 100%;
+}
+.group-photo:last-child {
+  margin-bottom: 0;
+}
+.leader-info {
+  text-align: center !important;
+}
+.recruitment-banner {
+  color: #3273dc !important;
+}
+.text-link {
+  color: #3273dc !important;
+  text-decoration: underline;
+}
+.include-news {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 0.5em;
+}
+.include-news-list {
+  margin: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 1em !important;
+  list-style-position: outside !important;
+}
+.include-news-year {
+  text-align: center;
+  font-weight: bold;
+  margin: 0.2em 0 !important;
+}
+.include-news-more {
+  text-align: center !important;
+  margin-top: 0.8em !important;
 }
 @media (max-width: 480px) {
   .article .content .home-sections .left {
@@ -11368,6 +11440,13 @@ a:hover {
   text-align: center;
   padding: 1em 0;
   border-top: 1px solid #eee;
+}
+.footer-inner {
+  line-height: 1.8em;
+  font-size: 0.95em;
+}
+.footer-visitors {
+  margin-top: 0.2em;
 }
 .content strong,
 .content b,
