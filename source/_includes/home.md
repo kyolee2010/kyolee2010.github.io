@@ -3,7 +3,7 @@
 <figure class="profile-photo">
   <img src="/images/yongli.png" alt="">
 </figure>
-<h1 class="leader-title">课题组负责人：李勇教授</h1>
+<h1 class="center">课题组负责人：李勇教授</h1>
 
 <p class="leader-info noindent">
     同济大学声学研究所副所长 <br>
@@ -60,7 +60,7 @@
 <figure class="profile-photo">
   <img src="/images/yongli.png" alt="">
 </figure>
-<h1 class="leader-title">Group Leader: Prof. Yong Li</h1>
+<h1 class="center">Group Leader: Prof. Yong Li</h1>
 <p class="leader-info noindent">
     Deputy Director, Institute of Acoustics, Tongji University <br>
     Deputy Director, Civil Aviation Key Laboratory of Intelligent Assisted Airworthiness for Aircraft Structures <br>
