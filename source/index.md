@@ -1,5 +1,5 @@
 ---
-title: 声功能材料实验室
+title: 声学功能材料实验室
 lang: zh-CN
 permalink: 
 hide_title: true

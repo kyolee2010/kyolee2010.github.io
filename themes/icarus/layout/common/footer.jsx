@@ -11,7 +11,7 @@ class Footer extends Component {
       <footer class="footer">
         <div class="container has-text-centered footer-inner">
           <p id="afml_footer_copyright">
-            © {year} 声功能材料实验室
+            © {year} 声学功能材料实验室
           </p>
 
           {showVisitors ? <p id="busuanzi_container_site_uv" class="footer-visitors">
@@ -31,7 +31,7 @@ class Footer extends Component {
   var l = document.getElementById('afml_footer_visit_label');
 
   if(c) c.textContent = '© ' + y + (en ? ' Acoustic Functional Materials Lab'
-                                        : ' 声功能材料实验室');
+                                        : ' 声学功能材料实验室');
   if(l) l.textContent = en ? 'Visitors' : '访客数';
 })();`,
           }}
