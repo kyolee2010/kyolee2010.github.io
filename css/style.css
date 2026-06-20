@@ -11321,7 +11321,7 @@ h1.title.is-3 {
 }
 .leader-title {
   text-align: center !important;
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 1.4;
   margin: 0.35em 0 0.2em;
 }
@@ -11354,7 +11354,7 @@ h1.title.is-3 {
 .content h1,
 .page-title,
 .page-header h1 {
-  font-size: 1.2em !important;
+  font-size: 1.25em !important;
   font-weight: 700;
   text-align: left;
   margin: 0.6em 0 0.4em 0 !important;
@@ -11370,14 +11370,14 @@ h1.title.is-3 {
 }
 /* 让页面 title（自动渲染）使用与正文 h1 一样的样式 */
 .content h2 {
-  font-size: 1.05em !important;
+  font-size: 1.12em !important;
   font-weight: 700;
   margin: 0.3em 0 0.3em 0 !important;
   text-indent: 0;
   line-height: 1.5;
 }
 .content h3 {
-  font-size: 1em !important;
+  font-size: 1.05em !important;
   font-weight: 600;
   margin: 0.2em 0 0.2em 0 !important;
   text-indent: 0em;
