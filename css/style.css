@@ -11519,6 +11519,15 @@ a:hover {
   color: #3273dc;
   font-weight: 600;
 }
+.navbar .navbar-logo {
+  padding: 0 0.45rem !important;
+  pointer-events: auto !important;
+}
+.navbar .navbar-logo img {
+  height: 26px !important;
+  max-height: 26px !important;
+  vertical-align: middle;
+}
 a:has(img),
 a.gallery-item,
 a[data-fancybox],
