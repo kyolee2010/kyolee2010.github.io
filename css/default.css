@@ -11338,15 +11338,6 @@ h1.title.is-3 {
   margin: 0 0 0.55em !important;
   line-height: 1.35;
 }
-.publication-list-heading {
-  margin: 0.2em 0 0.6em !important;
-}
-.publication-list-heading a {
-  font-size: 0.72em;
-  font-weight: 600;
-  margin-left: 0.35em;
-  white-space: normal;
-}
 .include-news {
   margin: 0 auto;
   max-width: 900px;
