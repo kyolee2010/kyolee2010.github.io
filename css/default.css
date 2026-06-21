@@ -11017,7 +11017,7 @@ a.article-nav-next span {
   .navbar-main {
     position: -webkit-sticky;
     position: sticky;
-    top: 1px;
+    top: 0;
   }
   .navbar-main .navbar-container,
   .navbar-main .navbar-menu {
@@ -11467,7 +11467,6 @@ html[lang="zh"] .content ol + p {
     font-size: 0.92rem;
   }
   .section {
-    touch-action: pan-y;
     padding: 0.4rem 0.55rem;
   }
   .article.card-content,
