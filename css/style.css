@@ -10971,9 +10971,6 @@ a.article-nav-next span {
 .navbar-main .navbar-item:focus {
   text-decoration: none;
 }
-.navbar-main .lang-switch {
-  margin-left: auto;
-}
 @media screen and (max-width: 1087px) {
   .navbar-main .navbar-menu {
     justify-content: center;
@@ -10995,9 +10992,6 @@ a.article-nav-next span {
     justify-content: flex-start;
     width: 100%;
     min-width: 0;
-  }
-  .navbar-main .lang-switch {
-    margin-left: 0;
   }
   .navbar-main .navbar-item {
     padding: 0.28rem 0.3rem;
