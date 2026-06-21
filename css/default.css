@@ -11329,6 +11329,10 @@ figure.highlight.foldable div.level-left {
   text-align: center;
   margin-top: 0.8em;
 }
+.content ul,
+.content ol {
+  margin-left: 1em;
+}
 .article .content a {
   font-weight: 600;
 }
