@@ -11442,7 +11442,7 @@ html[lang="zh"] .content ol + p {
   }
   .article.card-content,
   .card-content {
-    padding: 0.65rem 0.25rem;
+    padding: 0.75rem;
   }
   .content p {
     text-align: left;
@@ -11477,7 +11477,7 @@ html[lang="zh"] .content ol + p {
     gap: 0.65rem;
   }
   .article .content .home-layout .home-news {
-    padding: 0.45em 0.45em 0.35em;
+    padding: 0.75rem;
   }
   .article .content .home-layout .home-news .include-news {
     padding: 0;
