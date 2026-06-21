@@ -11005,27 +11005,13 @@ a.article-nav-next span {
   vertical-align: middle;
 }
 @media screen and (max-width: 768px) {
-  .navbar-main {
-    overflow: hidden;
-  }
-  .navbar-main .navbar-container {
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
   .navbar-main .navbar-menu {
     flex: 1 1 100%;
-    align-items: center;
     justify-content: flex-start;
-    flex-wrap: nowrap;
     min-width: 100%;
-    min-height: 52px;
   }
   .navbar-main .navbar-start,
   .navbar-main .navbar-end {
-    flex-wrap: nowrap;
-    flex-shrink: 0;
     margin-left: 0;
     margin-right: 0;
   }
