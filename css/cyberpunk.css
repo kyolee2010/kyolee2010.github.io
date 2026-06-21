@@ -10972,9 +10972,6 @@ a.article-nav-next span {
 .navbar-main .navbar-item:focus {
   text-decoration: none;
 }
-.navbar-main .lang-switch {
-  margin-left: auto;
-}
 @media screen and (max-width: 1087px) {
   .navbar-main .navbar-menu {
     justify-content: center;
@@ -10996,9 +10993,6 @@ a.article-nav-next span {
     justify-content: flex-start;
     width: 100%;
     min-width: 0;
-  }
-  .navbar-main .lang-switch {
-    margin-left: 0;
   }
   .navbar-main .navbar-item {
     padding: 0.28rem 0.24rem;
@@ -11275,14 +11269,6 @@ figure.highlight.foldable div.level-left {
 }
 .section {
   padding: 1rem 1rem;
-}
-@media screen and (min-width: 769px) {
-  .navbar-main .navbar-container {
-    padding-right: 1rem;
-  }
-  .navbar-main > .navbar-container .navbar-menu {
-    margin-right: 0;
-  }
 }
 .article.card-content,
 .card-content {
