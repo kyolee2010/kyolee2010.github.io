@@ -11293,7 +11293,7 @@ figure.highlight.foldable div.level-left {
 .article .content .home-layout .home-news {
   flex: 1 1 18rem;
   background: #f8f9fa;
-  padding: 1.5rem;
+  padding: 1.125rem;
   border-radius: 8px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.05);
   font-size: 0.95em;
@@ -11480,7 +11480,7 @@ html[lang="zh"] .content ol + p {
     gap: 0.65rem;
   }
   .article .content .home-layout .home-news {
-    padding: 0.75rem;
+    padding: 0.5625rem;
   }
   .article .content .home-layout .home-news .include-news-list {
     margin-left: 1em;
