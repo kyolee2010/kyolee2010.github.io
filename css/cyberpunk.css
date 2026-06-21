@@ -11040,7 +11040,7 @@ a.article-nav-next span {
   }
 }
 footer.footer {
-  padding: 0.65rem 1.5rem;
+  padding: 0.6rem 1.5rem;
 }
 footer.footer .footer-inner {
   line-height: 1.5;
@@ -11304,11 +11304,6 @@ figure.highlight.foldable div.level-left {
 }
 .section {
   padding: 1rem 1.5rem;
-}
-.column-main > .card {
-  background: transparent;
-  box-shadow: none;
-  border-radius: 0;
 }
 .article .content .home-sections {
   display: flex;
