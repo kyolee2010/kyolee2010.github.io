@@ -10972,12 +10972,6 @@ a.article-nav-next span {
 .navbar-main .navbar-item:focus {
   text-decoration: none;
 }
-@media screen and (max-width: 1087px) {
-  .navbar-main .navbar-menu {
-    justify-content: center;
-    box-shadow: none;
-  }
-}
 .navbar-logo {
   padding: 0 0.2rem 0 0.45rem;
   pointer-events: auto;
