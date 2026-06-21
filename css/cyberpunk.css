@@ -10249,16 +10249,14 @@ fieldset[disabled] .select select:hover {
   color: #000;
 }
 html {
-  height: auto;
-  overflow-x: visible;
-  overflow-y: auto;
+  height: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 body {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -11466,7 +11464,6 @@ html[lang="zh"] .content ol + p {
     background: #fff;
   }
   .section {
-    overflow-x: hidden;
     padding: 0.4rem 0.55rem;
   }
   .article.card-content,
