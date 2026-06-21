@@ -11485,7 +11485,13 @@ html[lang="zh"] .content ol + p {
     gap: 0.65rem;
   }
   .article .content .home-layout .home-news {
-    padding: 0.45em 0.6em 0.35em;
+    padding: 0.45em 0.45em 0.35em;
+  }
+  .article .content .home-layout .home-news .include-news {
+    padding: 0;
+  }
+  .article .content .home-layout .home-news .include-news-list {
+    padding-left: 0.8em;
   }
   .article .content .home-layout .home-main,
   .article .content .home-layout .home-news,
