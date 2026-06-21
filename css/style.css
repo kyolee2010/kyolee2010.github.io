@@ -11312,6 +11312,11 @@ figure.highlight.foldable div.level-left {
 .section {
   padding: 1rem 1.5rem;
 }
+.column-main > .card {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
 .article .content .home-sections {
   display: flex;
   flex-direction: row;
