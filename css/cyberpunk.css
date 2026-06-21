@@ -10942,9 +10942,11 @@ a.article-nav-next span {
   top: 0;
   z-index: 1000;
   background: rgba(255,255,255,0.96);
+  min-height: 0;
   width: 100%;
 }
 .navbar-main .navbar-container {
+  background: transparent;
   max-width: none;
   width: 100%;
 }
@@ -10954,6 +10956,8 @@ a.article-nav-next span {
   display: flex;
   padding: 0;
   flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
   row-gap: 0;
   min-width: 0;
 }
@@ -10967,6 +10971,7 @@ a.article-nav-next span {
   padding: 0 0.5rem;
   margin: 1.25rem 0.25rem;
   font-size: 0.94rem;
+  flex: 0 1 auto;
   white-space: nowrap;
   text-decoration: none;
 }
