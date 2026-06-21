@@ -11275,6 +11275,13 @@ figure.highlight.foldable div.level-left {
 .section {
   padding: 1rem 1rem;
 }
+.navbar-main .navbar-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.navbar-main .navbar-logo {
+  padding-left: 0;
+}
 .article.card-content,
 .card-content {
   padding: 1rem;
@@ -11458,6 +11465,10 @@ html[lang="zh"] .content ol + p {
   }
   .section {
     padding: 0.5rem 0.45rem;
+  }
+  .navbar-main .navbar-container {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
   }
   .columns {
     margin-left: 0;
