@@ -10949,9 +10949,11 @@ a.article-nav-next span {
 }
 .navbar-main .navbar-menu {
   align-items: stretch;
+  align-content: flex-start;
   display: flex;
   padding: 0;
   flex-wrap: wrap;
+  row-gap: 0;
   min-width: 0;
 }
 .navbar-main .navbar-menu {
