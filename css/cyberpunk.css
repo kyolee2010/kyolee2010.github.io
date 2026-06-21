@@ -10992,6 +10992,18 @@ a.article-nav-next span {
     margin-right: 0rem;
   }
 }
+footer.footer {
+  padding: 1rem 1.5rem;
+}
+footer.footer .footer-inner {
+  line-height: 1.5;
+}
+footer.footer .footer-inner p {
+  margin: 0;
+}
+footer.footer .footer-inner p + p {
+  margin-top: 0.15rem;
+}
 @media screen and (max-width: 768px) {
   footer.footer .level-start {
     text-align: center;
@@ -11005,6 +11017,11 @@ footer.footer .level-end .field {
   footer.footer .level-end .field {
     justify-content: center;
     margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer.footer {
+    padding: 0.75rem 0.75rem;
   }
 }
 .footer-logo img {
@@ -11365,9 +11382,6 @@ figure.highlight.foldable div.level-left {
   margin: 0.2em 0 0.2em 2em;
   line-height: 1.5;
   text-align: left;
-}
-.footer-visitors {
-  margin-top: 0.2em;
 }
 .content strong,
 .content b {
