@@ -11433,10 +11433,6 @@ figure.highlight.foldable div.level-left {
   .section {
     padding: 0.4rem 0.55rem;
   }
-  .card {
-    box-shadow: none;
-    border-radius: 0;
-  }
   .article.card-content,
   .card-content {
     padding: 0.65rem 0.25rem;
