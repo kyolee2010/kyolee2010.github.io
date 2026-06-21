@@ -10943,6 +10943,10 @@ a.article-nav-next span {
   z-index: 1000;
   background: rgba(255,255,255,0.96);
 }
+.navbar-main .navbar-container {
+  max-width: none;
+  width: 100%;
+}
 .navbar-main .navbar-menu {
   align-items: stretch;
   display: flex;
@@ -10989,8 +10993,7 @@ a.article-nav-next span {
     min-width: 0;
   }
   .navbar-main .navbar-item {
-    padding: 0.28rem 0.34rem;
-    line-height: 1.25;
+    padding: 0 0.34rem;
   }
   .navbar .navbar-logo img {
     height: 22px;
