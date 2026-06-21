@@ -11428,6 +11428,53 @@ figure.highlight.foldable div.level-left {
   body {
     overflow-x: hidden;
   }
+  .section {
+    padding: 0.75rem 0.5rem;
+  }
+  .article.card-content,
+  .card-content {
+    padding: 0.85rem;
+  }
+  .article .content {
+    font-size: 1rem;
+  }
+  .content p {
+    text-indent: 0;
+    text-align: left;
+    line-height: 1.55;
+  }
+  .content ul,
+  .content ol {
+    margin-left: 1.25em;
+  }
+  .content h1 {
+    margin: 0.25em 0 0.25em 0 !important;
+  }
+  .content h2 {
+    margin: 0.25em 0 0.2em 0 !important;
+  }
+  .content h3 {
+    margin: 0.15em 0 0.15em 0 !important;
+  }
+  .article .content figure {
+    margin: 0.45rem 0 0.55rem !important;
+  }
+  .article .content figure figcaption {
+    margin-top: 0.15rem;
+  }
+  .profile-photo img {
+    width: 140px;
+  }
+  .research-figure img {
+    width: 100%;
+    max-width: 320px;
+  }
+  .article .content .home-sections {
+    gap: 0.65rem;
+  }
+  .article .content .home-layout .home-news {
+    padding: 0.45em 0.6em 0.35em;
+  }
   .article .content .home-layout .home-main,
   .article .content .home-layout .home-news,
   .article .content .member-layout .member-list,
