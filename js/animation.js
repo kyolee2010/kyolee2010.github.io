@@ -7,7 +7,6 @@
         element.style.transition = '0s';
         element.style.opacity = '0';
     });
-    document.querySelector('body > .navbar').style.transform = 'translateY(-100px)';
     [
         '.column-main > .card, .column-main > .pagination, .column-main > .post-navigation',
         '.column-left > .card, .column-right-shadow > .card',
@@ -31,7 +30,6 @@
             element.style.opacity = '1';
             element.style.transition = 'opacity 0.3s ease-out, transform 0.3s ease-out';
         });
-        document.querySelector('body > .navbar').style.transform = 'translateY(0)';
 
         let i = 1;
         [
