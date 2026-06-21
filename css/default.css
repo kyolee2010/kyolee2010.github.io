@@ -11458,6 +11458,10 @@ html[lang="zh"] .content ol + p {
   .section {
     padding: 0.4rem 0.55rem;
   }
+  .columns {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .article.card-content,
   .card-content {
     padding: 0.65rem 0.25rem;
