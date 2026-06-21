@@ -11467,12 +11467,11 @@ html[lang="zh"] .content ol + p {
     font-size: 0.92rem;
   }
   .section {
-    overflow-x: hidden;
+    touch-action: pan-y;
     padding: 0.4rem 0.55rem;
   }
   .article.card-content,
   .card-content {
-    overflow-x: hidden;
     padding: 0.65rem 0.25rem;
   }
   .content p {
