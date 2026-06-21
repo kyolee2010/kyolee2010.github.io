@@ -11379,6 +11379,11 @@ article.article .content h3 {
   text-indent: 0;
   line-height: 1.5;
 }
+article.article .content h1:first-child,
+article.article .content h2:first-child,
+article.article .content h3:first-child {
+  margin-top: 0;
+}
 .content p {
   text-indent: 0;
   margin: 0.2em 0 0.2em 0;
