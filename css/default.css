@@ -11018,24 +11018,6 @@ footer.footer .footer-inner {
 footer.footer .footer-inner p {
   margin: 0;
 }
-@media screen and (max-width: 768px) {
-  footer.footer .level-start {
-    text-align: center;
-  }
-}
-footer.footer .level-end .field {
-  flex-wrap: wrap;
-  align-items: center;
-}
-@media screen and (max-width: 768px) {
-  footer.footer .level-end .field {
-    justify-content: center;
-    margin-top: 1rem;
-  }
-}
-.footer-logo img {
-  max-height: 1.75rem;
-}
 .pagination {
   margin-top: 1.5rem;
 }
@@ -11259,11 +11241,6 @@ figure.highlight.foldable div.level-left {
   .column-right-shadow.is-sticky {
     top: 0.75rem;
     align-self: flex-start;
-  }
-}
-@media screen and (max-width: 768px) {
-  .section {
-    padding: 1.5rem 1rem;
   }
 }
 .section {
