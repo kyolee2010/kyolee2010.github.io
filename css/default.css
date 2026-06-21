@@ -11462,10 +11462,10 @@ html[lang="zh"] .content ol + p {
 @media screen and (max-width: 768px) {
   html,
   body {
-    overflow-x: hidden;
     background: #fff;
   }
   .section {
+    overflow-x: hidden;
     padding: 0.4rem 0.55rem;
   }
   .article.card-content,
