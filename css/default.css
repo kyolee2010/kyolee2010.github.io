@@ -11005,12 +11005,14 @@ a.article-nav-next span {
 }
 @media screen and (max-width: 768px) {
   .navbar-main .navbar-menu {
-    flex: 1 1 100%;
+    flex: 1 1 auto;
     justify-content: flex-start;
-    min-width: 100%;
+    width: 100%;
+    min-width: 0;
   }
   .navbar-main .navbar-start,
   .navbar-main .navbar-end {
+    display: contents;
     margin-left: 0;
     margin-right: 0;
   }
