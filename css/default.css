@@ -11275,6 +11275,14 @@ figure.highlight.foldable div.level-left {
 .section {
   padding: 1rem 1rem;
 }
+@media screen and (min-width: 769px) {
+  .navbar-main .navbar-container {
+    padding-right: 1rem;
+  }
+  .navbar-main > .navbar-container .navbar-menu {
+    margin-right: 0;
+  }
+}
 .article.card-content,
 .card-content {
   padding: 1rem;
