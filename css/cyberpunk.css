@@ -10814,7 +10814,7 @@ article.article .article-meta {
 }
 article.article .content {
   word-wrap: break-word;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 article.article .content h1 {
   font-size: 1.75em;
@@ -11452,7 +11452,7 @@ figure.highlight.foldable div.level-left {
     padding: 0.65rem 0.25rem;
   }
   .article .content {
-    font-size: 0.92rem;
+    font-size: 0.95rem;
   }
   .content p {
     text-indent: 0;
