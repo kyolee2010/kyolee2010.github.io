@@ -11334,8 +11334,8 @@ figure.highlight.foldable div.level-left {
   padding: 0 0.5em;
 }
 .content .include-news-list {
-  margin: 0 0 0 0;
-  padding-left: 1em;
+  margin: 0.2em 0 0.2em 2em;
+  padding-left: 0;
   list-style-position: outside;
 }
 .content .include-news-more {
@@ -11448,7 +11448,7 @@ html[lang="zh"] .content ol + p {
   }
   .content ul,
   .content ol {
-    margin-left: 1.25em;
+    margin-left: 1em;
   }
   article.article .content h1 {
     margin: 0.25em 0 0.25em 0;
@@ -11482,7 +11482,7 @@ html[lang="zh"] .content ol + p {
     padding: 0;
   }
   .article .content .home-layout .home-news .include-news-list {
-    padding-left: 0.8em;
+    margin-left: 1em;
   }
   .article .content .home-layout .home-main,
   .article .content .home-layout .home-news,
