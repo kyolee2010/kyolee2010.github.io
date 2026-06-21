@@ -11476,6 +11476,15 @@ figure.highlight.foldable div.level-left {
     text-align: left;
     line-height: 1.5;
   }
+  html[lang="zh"] .content p {
+    text-indent: 2em;
+  }
+  html[lang="zh"] .content p.noindent,
+  html[lang="zh"] .content .center,
+  html[lang="zh"] .content ul + p,
+  html[lang="zh"] .content ol + p {
+    text-indent: 0;
+  }
   .content ul,
   .content ol {
     margin-left: 1.25em;
