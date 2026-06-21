@@ -10814,7 +10814,7 @@ article.article .article-meta {
 }
 article.article .content {
   word-wrap: break-word;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 article.article .content h1 {
   font-size: 1.75em;
@@ -11442,7 +11442,7 @@ figure.highlight.foldable div.level-left {
     padding: 0.65rem 0.25rem;
   }
   .article .content {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
   }
   .content p {
     text-indent: 0;
@@ -11480,6 +11480,7 @@ figure.highlight.foldable div.level-left {
   }
   .article .content .home-layout .home-news {
     padding: 0.45em 0.6em 0.35em;
+    font-size: 1em;
   }
   .article .content .home-layout .home-main,
   .article .content .home-layout .home-news,
