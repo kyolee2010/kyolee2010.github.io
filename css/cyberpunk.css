@@ -10937,6 +10937,7 @@ a.article-nav-next span {
 }
 .navbar-main {
   box-shadow: none;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -11016,6 +11017,11 @@ a.article-nav-next span {
   }
 }
 @media screen and (max-width: 768px) {
+  .navbar-main {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
   .navbar-main .navbar-container,
   .navbar-main .navbar-menu {
     width: 100%;
