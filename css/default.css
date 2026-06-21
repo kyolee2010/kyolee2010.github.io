@@ -11424,6 +11424,12 @@ html[lang="zh"] .content p {
 .content ol + p {
   text-indent: 0;
 }
+html[lang="zh"] .content p.noindent,
+html[lang="zh"] .content .center,
+html[lang="zh"] .content ul + p,
+html[lang="zh"] .content ol + p {
+  text-indent: 0;
+}
 .content ul,
 .content ol {
   margin: 0.2em 0 0.2em 2em;
