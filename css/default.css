@@ -10942,9 +10942,7 @@ a.article-nav-next span {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(255,255,255,0.88);
-  -webkit-backdrop-filter: saturate(180%) blur(16px);
-  backdrop-filter: saturate(180%) blur(16px);
+  background: rgba(255,255,255,0.96);
 }
 .navbar-main .navbar-container {
   overflow-x: visible;
