@@ -10972,7 +10972,7 @@ a.article-nav-next span {
 .navbar-main .navbar-item {
   display: flex;
   align-items: center;
-  padding: 0.34rem clamp(.34rem, .75vw, .75rem);
+  padding: 0.34rem 0.5rem;
   margin: 0 0;
   font-size: 0.94em;
   flex: 0 1 auto;
