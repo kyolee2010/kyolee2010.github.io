@@ -11265,6 +11265,7 @@ figure.highlight.foldable div.level-left {
   padding: 0.3em 0.5em 0.2em;
   border-radius: 8px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.05);
+  font-size: 0.95em;
 }
 .article .content .member-layout .member-list {
   flex: 1 1 22rem;
