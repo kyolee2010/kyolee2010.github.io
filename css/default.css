@@ -11062,11 +11062,6 @@ footer.footer .level-end .field {
     margin-top: 1rem;
   }
 }
-@media screen and (max-width: 768px) {
-  footer.footer {
-    padding: 0.55rem 0.75rem;
-  }
-}
 .footer-logo img {
   max-height: 1.75rem;
 }
