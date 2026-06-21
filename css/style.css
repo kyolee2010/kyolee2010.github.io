@@ -11372,15 +11372,17 @@ figure.highlight.foldable div.level-left {
    正文段落
    ===================================== */
 .content p {
-  text-indent: 2em;
+  text-indent: 0;
   margin: 0.2em 0 0.2em 0;
   line-height: 1.5;
   text-align: justify;
   color: #222;
 }
-.content p.noindent {
-  text-indent: 0;
+html[lang="zh"] .content p {
+  text-indent: 2em;
 }
+.content p.noindent,
+.content .center,
 .content ul + p,
 .content ol + p {
   text-indent: 0;
@@ -11472,18 +11474,8 @@ figure.highlight.foldable div.level-left {
     font-size: 0.95rem;
   }
   .content p {
-    text-indent: 0;
     text-align: left;
     line-height: 1.5;
-  }
-  html[lang="zh"] .content p {
-    text-indent: 2em;
-  }
-  html[lang="zh"] .content p.noindent,
-  html[lang="zh"] .content .center,
-  html[lang="zh"] .content ul + p,
-  html[lang="zh"] .content ol + p {
-    text-indent: 0;
   }
   .content ul,
   .content ol {
