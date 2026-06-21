@@ -10942,13 +10942,11 @@ a.article-nav-next span {
   top: 0;
   z-index: 1000;
   background: rgba(255,255,255,0.96);
-  width: 100vw;
+  width: 100%;
 }
 .navbar-main .navbar-container {
-  margin-left: 0;
-  margin-right: 0;
   max-width: none;
-  width: 100vw;
+  width: 100%;
 }
 .navbar-main .navbar-menu {
   align-items: stretch;
