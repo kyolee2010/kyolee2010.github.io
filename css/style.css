@@ -10964,16 +10964,13 @@ a.article-nav-next span {
   margin-right: 0;
   row-gap: 0;
   min-width: 0;
-}
-.navbar-main .navbar-menu {
   flex-grow: 1;
   flex-shrink: 1;
 }
 .navbar-main .navbar-item {
   display: flex;
   align-items: center;
-  padding: 0.34rem 0.5rem;
-  margin: 0 0;
+  padding: 0.4rem 0.5rem;
   font-size: 0.94em;
   flex: 0 1 auto;
   white-space: nowrap;
