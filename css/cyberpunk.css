@@ -11427,21 +11427,26 @@ figure.highlight.foldable div.level-left {
   html,
   body {
     overflow-x: hidden;
+    background: #fff;
   }
   .section {
-    padding: 0.75rem 0.5rem;
+    padding: 0.4rem 0.55rem;
+  }
+  .card {
+    box-shadow: none;
+    border-radius: 0;
   }
   .article.card-content,
   .card-content {
-    padding: 0.85rem;
+    padding: 0.65rem 0.25rem;
   }
   .article .content {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .content p {
     text-indent: 0;
     text-align: left;
-    line-height: 1.55;
+    line-height: 1.5;
   }
   .content ul,
   .content ol {
@@ -11499,7 +11504,7 @@ figure.highlight.foldable div.level-left {
     display: contents;
   }
   .navbar-main .navbar-item {
-    padding: 0.32rem 0.32rem !important;
+    padding: 0.28rem 0.3rem !important;
     line-height: 1.25;
   }
   .navbar .navbar-logo img {
