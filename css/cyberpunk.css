@@ -10995,7 +10995,7 @@ a.article-nav-next span {
     min-width: 0;
   }
   .navbar-main .navbar-item {
-    padding: 0.28rem 0.24rem;
+    padding: 0.28rem 0.34rem;
     line-height: 1.25;
   }
   .navbar .navbar-logo img {
@@ -11438,7 +11438,7 @@ html[lang="zh"] .content ol + p {
     font-size: 0.92rem;
   }
   .section {
-    padding: 0.5rem 0.24rem;
+    padding: 0.5rem 0.34rem;
   }
   .columns {
     margin-left: 0;
