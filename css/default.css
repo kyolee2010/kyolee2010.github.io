@@ -11275,6 +11275,10 @@ figure.highlight.foldable div.level-left {
 .section {
   padding: 1rem 1.5rem;
 }
+.article.card-content,
+.card-content {
+  padding: 1.5rem;
+}
 .article .content .home-sections {
   display: flex;
   flex-direction: row;
@@ -11289,7 +11293,7 @@ figure.highlight.foldable div.level-left {
 .article .content .home-layout .home-news {
   flex: 1 1 18rem;
   background: #f8f9fa;
-  padding: 0.3em 0.5em 0.2em;
+  padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.05);
   font-size: 0.95em;
@@ -11331,7 +11335,7 @@ figure.highlight.foldable div.level-left {
 .include-news {
   margin: 0 auto;
   max-width: 900px;
-  padding: 0 0.5em;
+  padding: 0;
 }
 .content .include-news-list {
   margin: 0.2em 0 0.2em 2em;
@@ -11433,7 +11437,7 @@ html[lang="zh"] .content ol + p {
     font-size: 0.92rem;
   }
   .section {
-    padding: 0.4rem 0.55rem;
+    padding: 0.5rem 0.75rem;
   }
   .columns {
     margin-left: 0;
@@ -11477,9 +11481,6 @@ html[lang="zh"] .content ol + p {
   }
   .article .content .home-layout .home-news {
     padding: 0.75rem;
-  }
-  .article .content .home-layout .home-news .include-news {
-    padding: 0;
   }
   .article .content .home-layout .home-news .include-news-list {
     margin-left: 1em;
