@@ -10946,6 +10946,8 @@ a.article-nav-next span {
 }
 .navbar-main .navbar-container {
   background: transparent;
+  display: flex;
+  align-items: stretch;
   max-width: none;
   width: 100%;
 }
