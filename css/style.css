@@ -11017,7 +11017,7 @@ a.article-nav-next span {
   .navbar-main {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 1px;
   }
   .navbar-main .navbar-container,
   .navbar-main .navbar-menu {
