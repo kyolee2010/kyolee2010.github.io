@@ -10943,9 +10943,6 @@ a.article-nav-next span {
   z-index: 1000;
   background: rgba(255,255,255,0.96);
 }
-.navbar-main .navbar-container {
-  overflow-x: visible;
-}
 .navbar-main .navbar-menu,
 .navbar-main .navbar-start,
 .navbar-main .navbar-end {
@@ -10959,7 +10956,6 @@ a.article-nav-next span {
 .navbar-main .navbar-menu {
   flex-grow: 1;
   flex-shrink: 1;
-  overflow-x: visible;
 }
 .navbar-main .navbar-start {
   justify-content: flex-start;
@@ -11008,12 +11004,6 @@ a.article-nav-next span {
   max-height: 1.75rem;
   vertical-align: middle;
 }
-@media screen and (min-width: 1088px) {
-  .navbar > .container .navbar-menu,
-  .container > .navbar .navbar-menu {
-    margin-right: 0rem;
-  }
-}
 @media screen and (max-width: 768px) {
   .navbar-main {
     overflow: hidden;
@@ -11023,18 +11013,12 @@ a.article-nav-next span {
     align-items: center;
     overflow-x: auto;
     overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-  .navbar-main .navbar-container::-webkit-scrollbar {
-    display: none;
   }
   .navbar-main .navbar-menu {
     flex: 1 1 100%;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    width: max-content;
     min-width: 100%;
     min-height: 52px;
   }
