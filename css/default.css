@@ -11014,17 +11014,6 @@ a.article-nav-next span {
   }
 }
 @media screen and (max-width: 768px) {
-  .navbar-main {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  .navbar-main .navbar-container,
-  .navbar-main .navbar-menu {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
   .navbar-main .navbar-menu {
     flex: 1 1 100%;
     justify-content: flex-start;
