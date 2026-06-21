@@ -11015,13 +11015,35 @@ a.article-nav-next span {
   }
 }
 @media screen and (max-width: 768px) {
+  .navbar-main {
+    overflow: hidden;
+  }
+  .navbar-main .navbar-container {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .navbar-main .navbar-container::-webkit-scrollbar {
+    display: none;
+  }
   .navbar-main .navbar-menu {
     flex: 1 1 100%;
+    align-items: center;
     justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: max-content;
+    min-width: 100%;
+    min-height: 52px;
   }
   .navbar-main .navbar-start,
   .navbar-main .navbar-end {
-    display: contents;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .navbar-main .navbar-item {
     padding: 0.28rem 0.3rem;
