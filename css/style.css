@@ -10940,8 +10940,13 @@ a.article-nav-next span {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(255,255,255,0.96);
+  background: #fff;
   min-height: 0;
+  overflow: visible;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   width: 100%;
 }
 .navbar-main .navbar-container {
