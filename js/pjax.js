@@ -11,8 +11,7 @@
                     '.pjax-reload',
                     'head title',
                     '.columns',
-                    '.navbar-start',
-                    '.navbar-end',
+                    '.navbar-main',
                     '.searchbox link',
                     '.searchbox script',
                     '#back-to-top',
@@ -26,15 +25,7 @@
         }
     }
 
-    // // Listen for start of Pjax
-    // document.addEventListener('pjax:send', function() {
-    //     return;
-    //     // TODO pace start loading animation
-    // })
-
-    // Listen for completion of Pjax
     document.addEventListener('pjax:complete', () => {
-        // Plugin [MathJax] reload logic
         if (window.MathJax) {
             try {
                 window.MathJax.typesetPromise && window.MathJax.typesetPromise();
@@ -42,7 +33,6 @@
                 console.error('MathJax reload error:', e);
             }
         }
-        // TODO pace stop loading animation
     });
 
     document.addEventListener('DOMContentLoaded', () => initPjax());

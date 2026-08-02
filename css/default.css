@@ -11464,12 +11464,3 @@ html[lang="zh"] .content ol + p {
     min-width: 0;
   }
 }
-a:has(img),
-a.gallery-item,
-a[data-fancybox],
-a[data-lightbox],
-a[data-gallery],
-img.medium-zoom-image {
-  pointer-events: none !important;
-  cursor: default !important;
-}
