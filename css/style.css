@@ -11303,6 +11303,10 @@ figure.highlight.foldable div.level-left {
   width: 160px;
   border-radius: 50%;
 }
+.profile-photo .protected-photo {
+  user-select: none;
+  -webkit-user-drag: none;
+}
 .research-figure img {
   width: 300px;
   max-width: 100%;
