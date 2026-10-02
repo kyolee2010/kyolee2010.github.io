@@ -11312,6 +11312,23 @@ figure.highlight.foldable div.level-left {
   width: 1000px;
   max-width: 100%;
 }
+.article .content .facility-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5em;
+  margin: 0.8em 0 1.5em;
+}
+.article .content .facility-grid > section {
+  min-width: 0;
+}
+.article .content .facility-grid figure img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+}
+.article .content .facility-grid p {
+  text-align: left;
+}
 .include-news {
   margin: 0 auto;
   max-width: 900px;
@@ -11407,6 +11424,9 @@ html[lang="zh"] .content ol + p {
   font-style: italic;
 }
 @media screen and (max-width: 768px) {
+  .article .content .facility-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
   html,
   body {
     background: #fff;
