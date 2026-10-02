@@ -11339,10 +11339,11 @@ figure.highlight.foldable div.level-left {
   justify-content: center;
   gap: 0.75em;
 }
-.article .content .facility-grid figure:has(> img + img) img {
+.article .content .facility-grid figure:has(> img + img) img[height] {
   margin: 0;
   min-width: 0;
-  max-width: calc((100% - .75em) / 2);
+  height: auto;
+  max-height: 10em;
 }
 .article .content .facility-grid p {
   text-align: left;
