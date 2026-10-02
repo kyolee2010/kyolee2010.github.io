@@ -11339,7 +11339,7 @@ figure.highlight.foldable div.level-left {
 }
 .article .content .facility-grid figure:has(> img + img) img {
   min-width: 0;
-  max-width: 'calc((100% - .75em) / 2)';
+  max-width: calc((100% - .75em) / 2);
 }
 .article .content .facility-grid p {
   text-align: left;
