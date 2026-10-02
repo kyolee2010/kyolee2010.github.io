@@ -11326,10 +11326,12 @@ figure.highlight.foldable div.level-left {
   max-width: 480px;
   height: auto;
 }
-.article .content .facility-grid figure img:not([width]) {
+.article .content .facility-grid figure img:not([height]) {
   width: 100%;
 }
-.article .content .facility-grid figure img[width] {
+.article .content .facility-grid figure img[height] {
+  width: auto;
+  height: 10em;
   max-width: 100%;
 }
 .article .content .facility-grid figure:has(> img + img) {
@@ -11341,7 +11343,7 @@ figure.highlight.foldable div.level-left {
 .article .content .facility-grid figure:has(> img + img) img {
   margin: 0;
   min-width: 0;
-  max-width: calc((100% - .75em) / 4);
+  max-width: calc((100% - .75em) / 2);
 }
 .article .content .facility-grid p {
   text-align: left;
