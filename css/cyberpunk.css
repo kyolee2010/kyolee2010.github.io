@@ -11312,6 +11312,9 @@ figure.highlight.foldable div.level-left {
 }
 .article .content .facility-grid > section {
   min-width: 0;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 .article .content .facility-grid figure img {
   max-width: 480px;
