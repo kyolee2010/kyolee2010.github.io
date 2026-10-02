@@ -10955,7 +10955,6 @@ a.article-nav-next span {
   align-items: stretch;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1440px;
   width: calc(100% - 2rem);
 }
 .navbar-main .navbar-menu {
@@ -10998,6 +10997,15 @@ a.article-nav-next span {
   height: 26px;
   max-height: 1.75rem;
   vertical-align: middle;
+}
+@media screen and (min-width: 769px) {
+  .navbar-main .navbar-item:not(.navbar-logo) {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .navbar-main .navbar-logo + .navbar-item {
+    justify-content: flex-start;
+  }
 }
 @media screen and (max-width: 768px) {
   .navbar-main .navbar-container {
