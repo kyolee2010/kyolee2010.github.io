@@ -11325,9 +11325,14 @@ figure.highlight.foldable div.level-left {
   min-width: 0;
 }
 .article .content .facility-grid figure img {
-  width: 100%;
   max-width: 640px;
   height: auto;
+}
+.article .content .facility-grid figure img:not([width]) {
+  width: 100%;
+}
+.article .content .facility-grid figure img[width] {
+  max-width: 100%;
 }
 .article .content .facility-grid p {
   text-align: left;
