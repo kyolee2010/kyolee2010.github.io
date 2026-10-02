@@ -11337,6 +11337,12 @@ figure.highlight.foldable div.level-left {
 .article .content .facility-grid p {
   text-align: left;
 }
+.article .content .facility-grid section > p.noindent {
+  margin-left: 0.75em;
+}
+.article .content .facility-grid section > ul {
+  margin-left: 2.25em;
+}
 .include-news {
   margin: 0 auto;
   max-width: 900px;
