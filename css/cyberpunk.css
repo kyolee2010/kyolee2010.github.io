@@ -11309,6 +11309,10 @@ figure.highlight.foldable div.level-left {
   margin: 0 auto;
   background: #000;
 }
+.research-demo video[aria-label="超构消声器演示"],
+.research-demo video[aria-label="Metamaterial Silencer Demonstration"] {
+  max-height: 360px;
+}
 .group-photo img {
   width: 1000px;
   max-width: 100%;
