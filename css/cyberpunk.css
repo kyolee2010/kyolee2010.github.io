@@ -11300,6 +11300,14 @@ figure.highlight.foldable div.level-left {
   width: 300px;
   max-width: 100%;
 }
+.research-demo video {
+  display: block;
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #000;
+}
 .group-photo img {
   width: 1000px;
   max-width: 100%;
