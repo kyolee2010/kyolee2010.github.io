@@ -11304,9 +11304,10 @@ figure.highlight.foldable div.level-left {
 }
 .research-demo video {
   display: block;
-  width: 480px;
+  width: auto;
   max-width: 100%;
   height: auto;
+  max-height: 480px;
   margin: 0 auto;
   background: #000;
 }
