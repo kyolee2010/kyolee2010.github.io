@@ -11434,6 +11434,14 @@ html[lang="zh"] .content ol + p {
 .content b.normal {
   color: inherit;
 }
+.content strong.person {
+  color: #222;
+}
+.content a strong,
+.content a b,
+.content a strong.person {
+  color: inherit;
+}
 .content em strong,
 .content strong em {
   color: #06c;
