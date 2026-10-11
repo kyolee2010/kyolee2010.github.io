@@ -11393,8 +11393,8 @@ article.article .content h1 {
 }
 .article .content h1 .lab-title-logo {
   display: inline-block;
-  width: 1.8em;
-  height: 1.8em;
+  width: 1em;
+  height: 1em;
   vertical-align: middle;
 }
 article.article .content h2 {
