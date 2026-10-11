@@ -11302,6 +11302,11 @@ figure.highlight.foldable div.level-left {
   width: 300px;
   max-width: 100%;
 }
+img,
+video,
+audio {
+  -webkit-touch-callout: none;
+}
 .research-demo video {
   display: block;
   width: auto;

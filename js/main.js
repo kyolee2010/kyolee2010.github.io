@@ -89,6 +89,15 @@
         }
     }
 
+    // Discourage direct media saving without blocking scrolling or text selection.
+    $(document).off('.mediaSaveGuard').on(
+        'contextmenu.mediaSaveGuard dragstart.mediaSaveGuard',
+        'img, video, audio',
+        function(event) { event.preventDefault(); }
+    );
+    $('video, audio').attr('controlslist', 'nodownload');
+    $('img, video').attr('draggable', 'false');
+
     const $toc = $('#toc');
     if ($toc.length > 0) {
         const $mask = $('<div>');
