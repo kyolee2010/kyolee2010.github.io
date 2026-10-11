@@ -11401,7 +11401,7 @@ article.article .content h1 {
   display: inline-block;
   width: 1em;
   height: 1em;
-  vertical-align: middle;
+  vertical-align: -0.08em;
 }
 article.article .content h2 {
   font-size: 1.03em;
